@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav { position: absolute; top: 20px; right: 59px; }
+.nav ul { overflow: hidden; }
+.nav li { float: left; }
+.nav li ~ li { margin-left: 30px; }
+.nav a { font-family: $font-family-serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; }
+
+.nav-trigger { display: none; }
+
+$breakpoint-tablet-portrait {
+	.nav { right: 20px; }
+	.nav li ~ li { margin-left: 15px; }
+}
+
+$breakpoint-mobile {
+	.nav-trigger { position: absolute; right: 13px; top: 13px; display: inline-block; width: 13px; height: 13px; }
+	.nav-trigger span { position: absolute; display: block; height: 2px; width: 100%; background: #000; transition: top .2s .25s, left .2s .25s, opacity .2s .25s, transform .2s 0s; }
+	.nav-trigger span:nth-child(1) { top: 0; }
+	.nav-trigger span:nth-child(2) { top: 5px; }
+	.nav-trigger span:nth-child(3) { top: 10px; }
+
+	.nav-trigger.active span { transition: background .2s, top .2s, left .2s, opacity .2s, transform .2s .25s; }
+	    
+	.nav-trigger.active span:nth-child(3),
+	.nav-trigger.active span:nth-child(1) { top: 5px; }
+
+	.nav-trigger.active span:nth-child(2) { opacity: 0; }
+	.nav-trigger.active span:nth-child(1) { transform: rotate(45deg); }
+	.nav-trigger.active span:nth-child(3) { transform: rotate(-45deg); }
+
+	.nav { position: fixed; top: 39px; bottom: 0; left: 0; right: 0; z-index: 10; padding: 20px 10px; background: #fff; transform: translateX(-100%); transition: all .3s; }
+	.nav.visible { transform: translateX(0); }
+	.nav li { float: none; display: block; }
+	.nav li ~ li { margin-left: 0; margin-top: 10px; }
+}

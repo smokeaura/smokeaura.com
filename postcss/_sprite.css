@@ -1,0 +1,17 @@
+.ico-behance { background: url(../css/images/sprite/ico-behance.png) no-repeat 0 0; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-facebook { background: url(../css/images/sprite/ico-facebook.png) no-repeat 0 0; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-instagram { background: url(../css/images/sprite/ico-instagram.png) no-repeat 0 0; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-linkedin { background: url(../css/images/sprite/ico-linkedin.png) no-repeat 0 0; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-logo { background: url(../css/images/sprite/ico-logo.png) no-repeat 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-next { background: url(../css/images/sprite/ico-next.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-prev { background: url(../css/images/sprite/ico-prev.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-twitter { background: url(../css/images/sprite/ico-twitter.png) no-repeat 0 0; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-youtube { background: url(../css/images/sprite/ico-youtube.png) no-repeat 0 0; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo { background: url(../css/images/sprite/logo.png) no-repeat 0 0; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	.ico-logo { background: url(../css/images/sprite/ico-logo@2x.png) no-repeat 0 0; width: 100px; height: 100px; background-size: 100px 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-next { background: url(../css/images/sprite/ico-next@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-prev { background: url(../css/images/sprite/ico-prev@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+}
+

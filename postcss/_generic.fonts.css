@@ -1,0 +1,36 @@
+/* ------------------------------------------------------------ *\
+	Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+	font-family: "Shonar Bangla";
+	src: url("fonts/ShonarBangla_700_normal_1456742521.eot");
+	src: url("fonts/ShonarBangla_700_normal_1456742521.eot?#iefix") format("embedded-opentype"),
+		url("fonts/ShonarBangla_700_normal_1456742521.svg#ShonarBangla") format("svg"),
+		url("fonts/ShonarBangla_700_normal_1456742521.woff") format("woff"),
+		url("fonts/ShonarBangla_700_normal_1456742521.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Shonar Bangla";
+	src: url("fonts/ShonarBangla_400_normal_1456742521.eot");
+	src: url("fonts/ShonarBangla_400_normal_1456742521.eot?#iefix") format("embedded-opentype"),
+		url("fonts/ShonarBangla_400_normal_1456742521.svg#ShonarBangla") format("svg"),
+		url("fonts/ShonarBangla_400_normal_1456742521.woff") format("woff"),
+		url("fonts/ShonarBangla_400_normal_1456742521.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Din';
+    src: url('fonts/din-regular-webfont.eot');
+    src: url('fonts/din-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/din-regular-webfont.woff') format('woff'),
+         url('fonts/din-regular-webfont.ttf') format('truetype'),
+         url('fonts/din-regular-webfont.svg#dinregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

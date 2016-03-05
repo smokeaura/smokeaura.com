@@ -1,0 +1,41 @@
+/* ------------------------------------------------------------ *\
+	Section About
+\* ------------------------------------------------------------ */
+
+.section-about { padding: 53px 0 30px; }
+
+.section-about .section-head { padding: 0 95px 0 65px; margin-bottom: 66px; font-size: 15px; }
+.section-about .section-head h3 { margin-bottom: 9px; }
+.section-about .section-head:after { content: ''; display: table; clear: both; }
+
+.section-about .section-head i { float: right; margin: -6px 0 0 44px; }
+.section-about .section-head-inner { overflow: hidden; padding-right: 47px; border-right: 1px solid #4b4b4b; text-align: right; }
+.section-about .section-head p { padding-left: 10px; }
+
+$breakpoint-mobile {
+	.section-about .section-head { padding: 0; text-align: center; }
+	.section-about .section-head i { float: none; margin: 0 0 33px; }
+	.section-about .section-head-inner { padding-right: 0; border-right: 0 none; text-align: center; }
+}
+
+/* ------------------------------------------------------------ *\
+	Section Logos
+\* ------------------------------------------------------------ */
+
+.section-logos { padding: 28px 0; }
+
+/* ------------------------------------------------------------ *\
+	Section Parallax
+\* ------------------------------------------------------------ */
+
+.section-parallax { position: relative; padding-top: 44%; }
+
+$breakpoint-mobile {
+	.section-parallax { padding-top: 0; height: 500px; }
+}
+
+/* ------------------------------------------------------------ *\
+	Section Timeline
+\* ------------------------------------------------------------ */
+
+.section-timeline { padding: 50px 0; }
