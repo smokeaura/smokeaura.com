@@ -14,3 +14,7 @@ $ gulp build
 ```
 $ gulp
 ```
+
+## Deployment
+The `master` branch is automatically deployed to https://staging.smokeaura.com,
+protected with password: FkTF35NGeuV2.
