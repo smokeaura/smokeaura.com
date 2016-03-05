@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+	List
+\* ------------------------------------------------------------ */
+
+[class^="list-"] { list-style: none outside none; }
+
+/* ------------------------------------------------------------ *\
+	List Logos
+\* ------------------------------------------------------------ */
+
+.list-logos { font-size: 0; }
+.list-logos li { display: inline-block; vertical-align: middle; width: 20%; text-align: center; }
+.list-logos img { max-width: 90%; }
+
+$breakpoint-mobile {
+	.list-logos { text-align: center; }
+	.list-logos li { width: 50%; margin-bottom: 25px; }
+}

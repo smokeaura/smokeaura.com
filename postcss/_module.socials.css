@@ -1,0 +1,9 @@
+/* ------------------------------------------------------------ *\
+	Socials
+\* ------------------------------------------------------------ */
+
+.socials { margin-bottom: 17px; }
+.socials ul { list-style: none outside none; font-size: 0; }
+.socials li { display: inline-block; vertical-align: middle; }
+.socials li ~ li { margin-left: 25px; }
+.socials a { display: block; }
