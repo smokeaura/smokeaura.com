@@ -8,6 +8,6 @@
 .footer-nav ul { display: inline-block; overflow: hidden; line-height: 1; }
 .footer-nav li { float: left; }
 .footer-nav li ~ li { padding-left: 10px; border-left: 1px solid #666; margin-left: 10px; }
-.footer-nav a { font-family: $font-family-serif; font-size: 11px; }
+.footer-nav a { font-family: $font-family-serif; font-weight: 600; font-size: 11px; }
 
 .footer .copyright { opacity: .48; }

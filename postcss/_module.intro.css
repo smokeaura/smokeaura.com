@@ -5,7 +5,29 @@
 .intro { position: relative; min-height: 100vh; overflow: hidden; }
 .intro-image { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-position: center center; background-repeat: no-repeat; background-size: cover; }
 
-.intro-content { position: relative; z-index: 2; padding-top: 134px; color: #fff; text-align: center; }
+.intro-content {
+  position: absolute;
+  padding-top: 134px;
+  z-index: 2;
+  color: #ABABAB;
+  text-align: center;
+
+  top: 26%;
+  display: table;
+  margin-left: 10%;
+}
+.intro-content h1 {
+  font-family: $font-family-logo;
+  font-size: 6rem;
+  letter-spacing: .02em;
+  border-bottom: 1px solid #ABABAB;
+  line-height: 1em;
+  margin-bottom: .1em;
+}
+.intro-content p {
+  font-family: $font-family-sans-serif;
+  font-size: 1.5rem;
+}
 
 $breakpoint-mobile {
 	.intro-content { padding: 112px 0 30px; }

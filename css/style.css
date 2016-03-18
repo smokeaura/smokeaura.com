@@ -1,8 +1,7 @@
 /* 
 	Table of Contents
-	update on Fri Mar 04 2016 16:10:57 GMT-0800 (PST)
+	update on Fri Mar 18 2016 00:32:22 GMT-0700 (PDT)
 
-	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
 	     02. Base -------------------------------------
 	     03. Fonts ------------------------------------
@@ -14,59 +13,52 @@
 	         Alignright -------------------------------
 	         Disabled ---------------------------------
 	         Visible Mobile ---------------------------
-	II.  Regions --------------------------------------
-	     01. Container --------------------------------
-	     02. Content ----------------------------------
-	     03. Footer -----------------------------------
-	     04. Header -----------------------------------
-	     05. Main -------------------------------------
-	     06. Shell ------------------------------------
-	     07. Sidebar ----------------------------------
-	     08. Wrapper ----------------------------------
-	III. Modules --------------------------------------
-	     01. Button -----------------------------------
+	     05. Container --------------------------------
+	     06. Content ----------------------------------
+	     07. Footer -----------------------------------
+	     08. Header -----------------------------------
+	     09. Main -------------------------------------
+	     10. Shell ------------------------------------
+	     11. Sidebar ----------------------------------
+	     12. Wrapper ----------------------------------
+	     13. Button -----------------------------------
 	         Button Block -----------------------------
-	     02. Form Elements ----------------------------
-	     03. Form -------------------------------------
-	     04. Intro ------------------------------------
-	     05. List -------------------------------------
-	     06. List Logos -------------------------------
-	     07. Logo -------------------------------------
-	     08. Nav --------------------------------------
-	     09. Section About ----------------------------
-	     10. Section Logos ----------------------------
-	     11. Section Parallax -------------------------
-	     12. Section Timeline -------------------------
-	     13. Slider -----------------------------------
-	     14. Slider About -----------------------------
-	     15. Slider Info ------------------------------
-	     16. Slider Timeline --------------------------
-	     17. Socials ----------------------------------
-	     18. Table ------------------------------------
-	     19. Widget -----------------------------------
+	     14. Form Elements ----------------------------
+	     15. Form -------------------------------------
+	     16. Intro ------------------------------------
+	     17. List -------------------------------------
+	     18. List Logos -------------------------------
+	     19. Logo -------------------------------------
+	     20. Nav --------------------------------------
+	     21. Section About ----------------------------
+	     22. Section Logos ----------------------------
+	     23. Section Parallax -------------------------
+	     24. Section Timeline -------------------------
+	     25. Slider -----------------------------------
+	     26. Slider About -----------------------------
+	     27. Slider Info ------------------------------
+	     28. Slider Timeline --------------------------
+	     29. Socials ----------------------------------
+	     30. Table ------------------------------------
+	     31. Widget -----------------------------------
  */
 
-.ico-behance { background-image: url(../css/images/sprite.png); background-position: -179px -44px; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-facebook { background-image: url(../css/images/sprite.png); background-position: 0 -104px; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-instagram { background-image: url(../css/images/sprite.png); background-position: -104px -44px; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-linkedin { background-image: url(../css/images/sprite.png); background-position: -140px -69px; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-logo { background-image: url(../css/images/sprite.png); background-position: 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-next { background-image: url(../css/images/sprite.png); background-position: -104px -69px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-prev { background-image: url(../css/images/sprite.png); background-position: -122px -69px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-twitter { background-image: url(../css/images/sprite.png); background-position: -128px -44px; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-youtube { background-image: url(../css/images/sprite.png); background-position: -153px -44px; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
-.logo { background-image: url(../css/images/sprite.png); background-position: -104px 0; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-behance { background: url(../css/images/sprite/ico-behance.png) no-repeat 0 0; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-facebook { background: url(../css/images/sprite/ico-facebook.png) no-repeat 0 0; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-instagram { background: url(../css/images/sprite/ico-instagram.png) no-repeat 0 0; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-linkedin { background: url(../css/images/sprite/ico-linkedin.png) no-repeat 0 0; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-logo { background: url(../css/images/sprite/ico-logo.png) no-repeat 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-next { background: url(../css/images/sprite/ico-next.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-prev { background: url(../css/images/sprite/ico-prev.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-twitter { background: url(../css/images/sprite/ico-twitter.png) no-repeat 0 0; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-youtube { background: url(../css/images/sprite/ico-youtube.png) no-repeat 0 0; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo { background: url(../css/images/sprite/logo.png) no-repeat 0 0; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.ico-logo { background-image: url(../css/images/sprite.@2x.png); background-position: 0 0; background-size: 116px 100px; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-next { background-image: url(../css/images/sprite.@2x.png); background-position: -102px 0; background-size: 116px 100px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-prev { background-image: url(../css/images/sprite.@2x.png); background-position: -102px -29px; background-size: 116px 100px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-logo { background: url(../css/images/sprite/ico-logo@2x.png) no-repeat 0 0; width: 100px; height: 100px; background-size: 100px 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-next { background: url(../css/images/sprite/ico-next@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-prev { background: url(../css/images/sprite/ico-prev@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
 }
-
-/* ------------------------------------------------------------ *\
-	I.   Generic
-\* ------------------------------------------------------------ */
-
 /* ------------------------------------------------------------ *\
 	Reset
 \* ------------------------------------------------------------ */
@@ -151,12 +143,11 @@ table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 
 nav ul,
 nav ol { list-style: none outside none; }
-
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
 
-body { min-width: 320px; background: #fff; font-family: 'Din', 'Arial', 'Helvetica', sans-serif; font-size: 13px; line-height: 1.3; color: #000; }
+body { min-width: 320px; background: #fff; font-family: 'Din', 'Arial', 'Helvetica', sans-serif; font-size: 13px; line-height: 1.3; color: #b8b8b8; }
 
 a { color: inherit; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -175,7 +166,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { margin-bottom: 0.65em; font-family: 'Shonar Bangla', 'Times', serif; font-weight: normal; }
+h6 { margin-bottom: 0.65em; font-family: 'Crimson Text', 'Times', serif; font-weight: 600; }
 
 p,
 ul,
@@ -205,13 +196,12 @@ blockquote:last-child { margin-bottom: 0; }
 
 @media (max-width: 767px) {
 	base { font-size: 10px; }
-	
+
 	h1 { font-size: 20px; }
 	h2 { font-size: 18px; }
 	h3 { font-size: 17px; }
 	h4 { font-size: 16px; }
 }
-
 /* ------------------------------------------------------------ *\
 	Fonts
 \* ------------------------------------------------------------ */
@@ -248,7 +238,6 @@ blockquote:last-child { margin-bottom: 0; }
     font-weight: 400;
     font-style: normal;
 }
-
 /* ------------------------------------------------------------ *\
 	Helpers
 \* ------------------------------------------------------------ */
@@ -295,24 +284,16 @@ blockquote:last-child { margin-bottom: 0; }
 
 @media ( max-width: 768px ) {
 	.hidden-mobile { display: none !important; }
-}
-
-/* ------------------------------------------------------------ *\
-	II.  Regions
-\* ------------------------------------------------------------ */
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Container
 \* ------------------------------------------------------------ */
 
 .container {}
-
 /* ------------------------------------------------------------ *\
 	Content
 \* ------------------------------------------------------------ */
 
 .content {}
-
 /* ------------------------------------------------------------ *\
 	Footer
 \* ------------------------------------------------------------ */
@@ -323,15 +304,14 @@ blockquote:last-child { margin-bottom: 0; }
 .footer-nav ul { display: inline-block; overflow: hidden; line-height: 1; }
 .footer-nav li { float: left; }
 .footer-nav li ~ li { padding-left: 10px; border-left: 1px solid #666; margin-left: 10px; }
-.footer-nav a { font-family: 'Shonar Bangla', 'Times', serif; font-size: 11px; }
+.footer-nav a { font-family: 'Crimson Text', 'Times', serif; font-weight: 600; font-size: 11px; }
 
 .footer .copyright { opacity: .48; }
-
 /* ------------------------------------------------------------ *\
 	Header
 \* ------------------------------------------------------------ */
 
-.header { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; height: 56px; padding-top: 11px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #000; text-align: center; }
+.header { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; height: 56px; padding-top: 11px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #515151; text-align: center; }
 .header .logo { position: absolute; top: 12px; left: 60px; }
 
 @media (max-width: 1023px) {
@@ -342,42 +322,33 @@ blockquote:last-child { margin-bottom: 0; }
 	.header { height: 39px; padding-top: 10px; }
 	.header .logo { left: 9px; top: 9px; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7); }
 }
-
 /* ------------------------------------------------------------ *\
 	Main
 \* ------------------------------------------------------------ */
 
 .main {}
-
 /* ------------------------------------------------------------ *\
 	Shell
 \* ------------------------------------------------------------ */
 
 .shell { max-width: 830px; margin: auto; padding: 0 12px; }
-
 /* ------------------------------------------------------------ *\
 	Sidebar
 \* ------------------------------------------------------------ */
 
 .sidebar {}
-
 /* ------------------------------------------------------------ *\
 	Wrapper
 \* ------------------------------------------------------------ */
 
 .wrapper {}
-
-/* ------------------------------------------------------------ *\
-	III. Modules
-\* ------------------------------------------------------------ */
-
 /* ------------------------------------------------------------ *\
 	Button
 \* ------------------------------------------------------------ */
 
 .btn { display: inline-block; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
-.btn-primary { padding: 6px 20px 0; border: 1px solid #1d1d1d; font-family: 'Shonar Bangla', 'Times', serif; font-size: 18px; line-height: 1.3; letter-spacing: 0.1em; padding-bottom: .3em; }
+.btn-primary { padding: 6px 20px 0; border: 1px solid #515151; font-family: 'Crimson Text', 'Times', serif; font-size: 18px; line-height: 1.3; letter-spacing: 0.15em; padding-bottom: .3em; font-weight: 600; }
 .btn-primary:hover { text-decoration: none; }
 
 
@@ -387,7 +358,6 @@ blockquote:last-child { margin-bottom: 0; }
 @media (max-width: 767px) {
 	.btn-primary { padding: 5px 17px 0; font-size: 10px; }
 }
-
 /* ------------------------------------------------------------ *\
 	Form Elements
 \* ------------------------------------------------------------ */
@@ -411,13 +381,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .select {}
 .radio {}
 .checkbox {}
-
 /* ------------------------------------------------------------ *\
 	Form
 \* ------------------------------------------------------------ */
 
 .form {}
-
 /* ------------------------------------------------------------ *\
 	Intro
 \* ------------------------------------------------------------ */
@@ -425,12 +393,33 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .intro { position: relative; min-height: 100vh; overflow: hidden; }
 .intro-image { position: absolute; top: 0; bottom: 0; left: 0; right: 0; background-position: center center; background-repeat: no-repeat; background-size: cover; }
 
-.intro-content { position: relative; z-index: 2; padding-top: 134px; color: #fff; text-align: center; }
+.intro-content {
+  position: absolute;
+  padding-top: 134px;
+  z-index: 2;
+  color: #ABABAB;
+  text-align: center;
+
+  top: 26%;
+  display: table;
+  margin-left: 10%;
+}
+.intro-content h1 {
+  font-family: 'Shonar Bangla', 'Times', serif;
+  font-size: 6rem;
+  letter-spacing: .02em;
+  border-bottom: 1px solid #ABABAB;
+  line-height: 1em;
+  margin-bottom: .1em;
+}
+.intro-content p {
+  font-family: 'Din', 'Arial', 'Helvetica', sans-serif;
+  font-size: 1.5rem;
+}
 
 @media (max-width: 767px) {
 	.intro-content { padding: 112px 0 30px; }
 }
-
 /* ------------------------------------------------------------ *\
 	List
 \* ------------------------------------------------------------ */
@@ -448,14 +437,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 @media (max-width: 767px) {
 	.list-logos { text-align: center; }
 	.list-logos li { width: 50%; margin-bottom: 25px; }
-}
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Logo
 \* ------------------------------------------------------------ */
 
 .logo {}
-
 /* ------------------------------------------------------------ *\
 	Nav
 \* ------------------------------------------------------------ */
@@ -464,7 +450,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .nav ul { overflow: hidden; }
 .nav li { float: left; }
 .nav li ~ li { margin-left: 30px; }
-.nav a { font-family: 'Shonar Bangla', 'Times', serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; }
+.nav a { font-family: 'Crimson Text', 'Times', serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
 
 .nav-trigger { display: none; }
 
@@ -481,7 +467,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.nav-trigger span:nth-child(3) { top: 10px; }
 
 	.nav-trigger.active span { transition: background .2s, top .2s, left .2s, opacity .2s, -webkit-transform .2s .25s; transition: background .2s, top .2s, left .2s, opacity .2s, transform .2s .25s; }
-	    
+
 	.nav-trigger.active span:nth-child(3),
 	.nav-trigger.active span:nth-child(1) { top: 5px; }
 
@@ -494,12 +480,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.nav li { float: none; display: block; }
 	.nav li ~ li { margin-left: 0; margin-top: 10px; }
 }
-
 /* ------------------------------------------------------------ *\
 	Section About
 \* ------------------------------------------------------------ */
 
-.section-about { padding: 53px 0 30px; }
+/* .section-about { padding: 53px 0 30px; } */
 
 .section-about .section-head { padding: 0 95px 0 65px; margin-bottom: 66px; font-size: 15px; }
 .section-about .section-head h3 { margin-bottom: 9px; }
@@ -536,7 +521,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 \* ------------------------------------------------------------ */
 
 .section-timeline { padding: 50px 0; }
-
 /* ------------------------------------------------------------ *\
 	Slider
 \* ------------------------------------------------------------ */
@@ -565,26 +549,126 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	Slider About
 \* ------------------------------------------------------------ */
 
-.slider-about { text-align: center; }
-.slider-about .slide-content { max-width: 290px; margin: 0 auto; font-size: 1em; }
+.slider-about .btn-primary {
+  border: 2px solid #b8b8b8;
+}
+
+.slider-about .owl-item .slide {
+  position: relative;
+  padding: 350px 0 340px;
+  max-height: 790px;
+}
+
+.slider-about .owl-item:nth-child(1) .slide { position: relative; padding: 150px 0 150px; }
+
+.slider-about .slide-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider-about .slide-content { position: relative; max-width: 360px; }
+
+.slider-about .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
+
+.slider-about .slide-logo {
+  width: 160px !important;
+  padding-bottom: 4rem;
+}
+
+.slider-about h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #b8b8b8;
+  margin-bottom: .65rem;
+  line-height: .9em;
+  padding-bottom: .9rem;
+}
+
+.slider-about p {
+  font-size: 1rem;
+}
+
+.slider-about .owl-item:nth-child(n+2) .slide .slide-content {
+  left: 60%
+}
+
+.slider-about .owl-item:nth-child(5) .slide .slide-content {
+  left: 80%;
+  max-width: 280px;
+}
+
+@media (max-width: 767px) {
+  .slider-about .owl-item:nth-child(n+2) .slide .slide-content {
+    left: 0%
+  }
+
+  .slider-about .slide { padding-top: 285px; padding-bottom: 0; }
+  .slider-about .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
+  .slider-about .slide-content { text-align: center; max-width: 240px; margin: 0 auto; }
+  .slider-about .owl-dots { position: absolute; top: 250px; }
+}
 
 /* ------------------------------------------------------------ *\
 	Slider Info
 \* ------------------------------------------------------------ */
 
-.slider-info .slide { position: relative; padding: 230px 0 220px; }
-.slider-info .slide-image { position: absolute; left: 0; top: 0; bottom: 0; right: 0; background-repeat: no-repeat; background-position: top right; background-size: cover; }
-.slider-info .slide-content { position: relative; max-width: 300px; }
+.slider-info .owl-item .slide {
+  position: relative;
+  padding: 350px 0 340px;
+  max-height: 790px;
+}
+.slider-info .slide-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.slider-info .slide-content { position: relative; max-width: 360px; }
 
 .slider-info .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
 
+.slider-info .slide-logo {
+  width: 160px !important;
+  padding-bottom: 4rem;
+}
+
+.slider-info h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #b8b8b8;
+  margin-bottom: .65rem;
+  line-height: .9em;
+  padding-bottom: .9rem;
+}
+
+.slider-info p {
+  font-size: 1rem;
+}
+
+.slider-info .owl-item .slide .slide-content {
+  left: 60%;
+}
+
+.slider-info .owl-item:nth-child(4) .slide .slide-content {
+  left: 70%;
+  color: #979797;
+}
+
 @media (max-width: 767px) {
-	.slider-info .slide { padding-top: 285px; padding-bottom: 0; }
-	.slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
-
-	.slider-info .slide-content { text-align: center; max-width: 240px; margin: 0 auto; }
-
-	.slider-info .owl-dots { position: absolute; top: 250px; }
+  .slider-info .slide { padding-top: 285px; padding-bottom: 0; }
+  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
+  .slider-info .slide-content { text-align: center; max-width: 240px; margin: 0 auto; }
+  .slider-info .owl-dots { position: absolute; top: 250px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -594,23 +678,22 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .slider-timeline { text-align: center; }
 .slider-timeline .slide-head { position: relative; height: 280px; margin-bottom: 27px; text-align: center; }
 .slider-timeline .slide-head img { display: inline-block; width: auto; height: 100%; }
-.slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: 'Shonar Bangla', 'Times', serif; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
+.slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: 'Crimson Text', 'Times', serif; font-weight: 600; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
 
 .slider-timeline .slide-meta { position: relative; margin-bottom: 30px; }
-.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #343434; background: #fff; font-family: 'Shonar Bangla', 'Times', serif; text-transform: uppercase; font-size: 14px; letter-spacing: 0.21em; text-transform: uppercase; }
-.slider-timeline .slide-meta:before { position: absolute; left: 0; right: 0; top: 0; bottom: 0; height: 3px; background: #686868; margin: auto 0; content: ''; }
+.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #b8b8b8; background: #fff; font-family: 'Crimson Text', 'Times', serif; font-weight: 600; text-transform: uppercase; font-size: 14px; letter-spacing: 0.21em; text-transform: uppercase; }
+.slider-timeline .slide-meta:before { position: absolute; left: 0; right: 0; top: 0; bottom: 0; height: 3px; background: #b8b8b8; margin: auto 0; content: ''; }
 
 .slider-timeline .owl-item:first-child .slide-meta:before { left: 50%; }
 .slider-timeline .owl-item:last-child .slide-meta:before { right: 50%; }
 
 .slider-timeline .slide-content { max-width: 524px; padding: 0 12px; margin: 0 auto; text-align: justify; -moz-text-align-last: center; text-align-last: center; font-size: 16px; color: #bbbbba; }
-.slider-timeline .slide-content h1 { margin-bottom: 5px; text-align: center; color: #000; }
+.slider-timeline .slide-content h1 { margin-bottom: 5px; text-align: center; color: #b8b8b8; }
 
 @media (max-width: 767px) {
 	.slider-timeline .owl-prev,
 	.slider-timeline .owl-next { top: 290px; margin-top: 0; }
 }
-
 /* ------------------------------------------------------------ *\
 	Socials
 \* ------------------------------------------------------------ */
@@ -620,13 +703,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .socials li { display: inline-block; vertical-align: middle; }
 .socials li ~ li { margin-left: 25px; }
 .socials a { display: block; }
-
 /* ------------------------------------------------------------ *\
 	Table
 \* ------------------------------------------------------------ */
 
 .table {}
-
 /* ------------------------------------------------------------ *\
 	Widget
 \* ------------------------------------------------------------ */
