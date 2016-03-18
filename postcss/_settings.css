@@ -6,8 +6,8 @@ $shell-max-width:					830px;
 
 
 $font-family-sans-serif:			'Din', 'Arial', 'Helvetica', sans-serif;
-$font-family-serif:					'Shonar Bangla', 'Times', serif;
-
+$font-family-serif:					'Crimson Text', 'Times', serif;
+$font-family-logo:					'Shonar Bangla', 'Times', serif;
 
 $breakpoint-small-desktop:			@media (max-width: 1200px);
 $breakpoint-tablet-portrait:		@media (max-width: 1023px);

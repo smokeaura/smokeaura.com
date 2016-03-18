@@ -26,26 +26,126 @@ $breakpoint-mobile {
 	Slider About
 \* ------------------------------------------------------------ */
 
-.slider-about { text-align: center; }
-.slider-about .slide-content { max-width: 290px; margin: 0 auto; font-size: 1em; }
+.slider-about .btn-primary {
+  border: 2px solid #b8b8b8;
+}
+
+.slider-about .owl-item .slide {
+  position: relative;
+  padding: 350px 0 340px;
+  max-height: 790px;
+}
+
+.slider-about .owl-item:nth-child(1) .slide { position: relative; padding: 150px 0 150px; }
+
+.slider-about .slide-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slider-about .slide-content { position: relative; max-width: 360px; }
+
+.slider-about .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
+
+.slider-about .slide-logo {
+  width: 160px !important;
+  padding-bottom: 4rem;
+}
+
+.slider-about h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #b8b8b8;
+  margin-bottom: .65rem;
+  line-height: .9em;
+  padding-bottom: .9rem;
+}
+
+.slider-about p {
+  font-size: 1rem;
+}
+
+.slider-about .owl-item:nth-child(n+2) .slide .slide-content {
+  left: 60%
+}
+
+.slider-about .owl-item:nth-child(5) .slide .slide-content {
+  left: 80%;
+  max-width: 280px;
+}
+
+$breakpoint-mobile {
+  .slider-about .owl-item:nth-child(n+2) .slide .slide-content {
+    left: 0%
+  }
+
+  .slider-about .slide { padding-top: 285px; padding-bottom: 0; }
+  .slider-about .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
+  .slider-about .slide-content { text-align: center; max-width: 240px; margin: 0 auto; }
+  .slider-about .owl-dots { position: absolute; top: 250px; }
+}
 
 /* ------------------------------------------------------------ *\
 	Slider Info
 \* ------------------------------------------------------------ */
 
-.slider-info .slide { position: relative; padding: 230px 0 220px; }
-.slider-info .slide-image { position: absolute; left: 0; top: 0; bottom: 0; right: 0; background-repeat: no-repeat; background-position: top right; background-size: cover; }
-.slider-info .slide-content { position: relative; max-width: 300px; }
+.slider-info .owl-item .slide {
+  position: relative;
+  padding: 350px 0 340px;
+  max-height: 790px;
+}
+.slider-info .slide-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.slider-info .slide-content { position: relative; max-width: 360px; }
 
 .slider-info .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
 
+.slider-info .slide-logo {
+  width: 160px !important;
+  padding-bottom: 4rem;
+}
+
+.slider-info h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  border-bottom: 2px solid #b8b8b8;
+  margin-bottom: .65rem;
+  line-height: .9em;
+  padding-bottom: .9rem;
+}
+
+.slider-info p {
+  font-size: 1rem;
+}
+
+.slider-info .owl-item .slide .slide-content {
+  left: 60%;
+}
+
+.slider-info .owl-item:nth-child(4) .slide .slide-content {
+  left: 70%;
+  color: #979797;
+}
+
 $breakpoint-mobile {
-	.slider-info .slide { padding-top: 285px; padding-bottom: 0; }
-	.slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
-
-	.slider-info .slide-content { text-align: center; max-width: 240px; margin: 0 auto; }
-
-	.slider-info .owl-dots { position: absolute; top: 250px; }
+  .slider-info .slide { padding-top: 285px; padding-bottom: 0; }
+  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
+  .slider-info .slide-content { text-align: center; max-width: 240px; margin: 0 auto; }
+  .slider-info .owl-dots { position: absolute; top: 250px; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -55,17 +155,17 @@ $breakpoint-mobile {
 .slider-timeline { text-align: center; }
 .slider-timeline .slide-head { position: relative; height: 280px; margin-bottom: 27px; text-align: center; }
 .slider-timeline .slide-head img { display: inline-block; width: auto; height: 100%; }
-.slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: $font-family-serif; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
+.slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: $font-family-serif; font-weight: 600; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
 
 .slider-timeline .slide-meta { position: relative; margin-bottom: 30px; }
-.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #343434; background: #fff; font-family: $font-family-serif; text-transform: uppercase; font-size: 14px; letter-spacing: 0.21em; text-transform: uppercase; }
-.slider-timeline .slide-meta:before { position: absolute; left: 0; right: 0; top: 0; bottom: 0; height: 3px; background: #686868; margin: auto 0; content: ''; }
+.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #b8b8b8; background: #fff; font-family: $font-family-serif; font-weight: 600; text-transform: uppercase; font-size: 14px; letter-spacing: 0.21em; text-transform: uppercase; }
+.slider-timeline .slide-meta:before { position: absolute; left: 0; right: 0; top: 0; bottom: 0; height: 3px; background: #b8b8b8; margin: auto 0; content: ''; }
 
 .slider-timeline .owl-item:first-child .slide-meta:before { left: 50%; }
 .slider-timeline .owl-item:last-child .slide-meta:before { right: 50%; }
 
 .slider-timeline .slide-content { max-width: 524px; padding: 0 12px; margin: 0 auto; text-align: justify; text-align-last: center; font-size: 16px; color: #bbbbba; }
-.slider-timeline .slide-content h1 { margin-bottom: 5px; text-align: center; color: #000; }
+.slider-timeline .slide-content h1 { margin-bottom: 5px; text-align: center; color: #b8b8b8; }
 
 $breakpoint-mobile {
 	.slider-timeline .owl-prev,
