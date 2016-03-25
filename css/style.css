@@ -500,6 +500,14 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.section-about .section-head-inner { padding-right: 0; border-right: 0 none; text-align: center; }
 }
 
+.product-carousel {
+	position: relative;
+	min-height: 100vh;
+}
+.slide.product-carousel {
+	min-height: 100vh;
+}
+
 /* ------------------------------------------------------------ *\
 	Section Logos
 \* ------------------------------------------------------------ */
@@ -556,7 +564,7 @@ $breakpoint-mobile {
 .slider-about .owl-item .slide {
   position: relative;
   padding: 350px 0 340px;
-  max-height: 790px;
+  min-height: 100vh;
 }
 
 .slider-about .owl-item .slide.slide-1 { 
@@ -573,6 +581,7 @@ $breakpoint-mobile {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .slider-about .slide-content { position: relative; max-width: 360px; }
@@ -618,7 +627,7 @@ $breakpoint-mobile {
   }
 
   .slider-about .slide { padding-top: 285px; padding-bottom: 0; }
-  .slider-about .slide-image { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
+  .slider-about .slide-image	 { top: 0; bottom: auto; height: 270px; background-position: right -80px top 50%; }
   .slider-about .slide-content { text-align: center; max-width: 330px; margin: 0 auto; }
   .slider-about .owl-dots { position: absolute; top: 250px; }
 }
@@ -629,8 +638,8 @@ $breakpoint-mobile {
 
 .slider-info .owl-item .slide {
   position: relative;
-  padding: 350px 0 340px;
-  max-height: 790px;
+  padding: 360px 0 340px;
+  min-height: 100vh;
 }
 .slider-info .slide-image {
   position: absolute;
@@ -641,8 +650,17 @@ $breakpoint-mobile {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  min-height: 100vh;
 }
-.slider-info .slide-content { position: relative; max-width: 330px; }
+.slider-info .slide-content { position: relative; max-width: 360px; }
+
+.slider-info .owl-item .slide.slide-1 .slide-content, 
+.slider-info .owl-item .slide.slide-2 .slide-content, 
+.slider-info .owl-item .slide.slide-3 .slide-content, 
+.slider-info .owl-item .slide.slide-4 .slide-content, 
+.slider-info .owl-item .slide.slide-5 .slide-content {
+  left: 85%;
+}
 
 .slider-info .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
 
@@ -669,9 +687,8 @@ $breakpoint-mobile {
 }
 
 .slider-info .owl-item .slide.slide-4 .slide-content {
-  left: 70%;
+  left: 85%;
   color: #979797;
-  max-width: 360px;
 }
 
 $breakpoint-mobile {
