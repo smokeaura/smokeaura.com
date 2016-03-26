@@ -40,7 +40,8 @@
 	     28. Slider Timeline --------------------------
 	     29. Socials ----------------------------------
 	     30. Table ------------------------------------
-	     31. Widget -----------------------------------
+		 31. Video ------------------------------------
+	     32. Widget -----------------------------------
  */
 
 .ico-behance { background: url(../css/images/sprite/ico-behance.png) no-repeat 0 0; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
@@ -312,7 +313,7 @@ blockquote:last-child { margin-bottom: 0; }
 \* ------------------------------------------------------------ */
 
 .header { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; height: 56px; padding-top: 11px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #515151; text-align: center; }
-.header .logo { position: absolute; top: 12px; left: 60px; }
+.header .logo { position: absolute; top: 8px; left: 60px; }
 
 @media (max-width: 1023px) {
 	.header .logo { left: 20px; }
@@ -408,7 +409,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   font-family: 'Shonar Bangla', 'Times', serif;
   font-size: 6rem;
   letter-spacing: .02em;
-  border-bottom: 1px solid #ABABAB;
+  border-bottom: 1px solid #BABABA;
   line-height: 1em;
   margin-bottom: .1em;
 }
@@ -570,6 +571,7 @@ $breakpoint-mobile {
 .slider-about .owl-item .slide.slide-1 { 
   position: relative; 
   padding: 150px 0 150px; 
+  right: 10%;
  }
 
 .slider-about .slide-image {
@@ -736,6 +738,14 @@ $breakpoint-mobile {
 \* ------------------------------------------------------------ */
 
 .table {}
+/* ------------------------------------------------------------ *\
+	Video
+\* ------------------------------------------------------------ */
+
+.video-wrap {
+	width: 100%;
+	min-height: 100vh;
+}
 /* ------------------------------------------------------------ *\
 	Widget
 \* ------------------------------------------------------------ */
