@@ -68,6 +68,12 @@
 		</div><!-- /.intro-content -->
 	</div><!-- /.intro -->
 	
+	<div id="video-wrap"> <!--video placeholder -->
+    <video id="my-video" preload="metadata" autoplay loop>
+        <source src="css/images/temp/webvid.mp4" type="video/mp4">
+    </video>
+	</div> <!-- /.video-wrap -->
+	
     <a name="productjump"><div name="anchor">.</div></a> <!-- Spacing anchor for page jump -->
 	
 	<section class="section section-about">
@@ -517,6 +523,14 @@
 		</div><!-- /.shell -->
 	</footer><!-- /.footer -->
 </div><!-- /.wrapper -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- for videoloop -->
+<script type="text/javascript" src="vendor/backgroundVideo.js"></script> <!-- for videoloop -->
+<script> <!-- for videoloop -->
+    $(document).ready(function() {
+        $(element).backgroundVideo();
+    });
+</script> <!-- for videoloop -->
 
 </body>
 </html>
