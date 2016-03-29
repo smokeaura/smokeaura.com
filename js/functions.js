@@ -4,12 +4,14 @@
 
 	$doc.ready(function() {
 		$('.slider-primary .slides').owlCarousel({
+			loop: true,
 			items: 1,
 			nav: true,
 			dots: true,
 		})
 
 		$('.slider-timeline .slides').owlCarousel({
+			loop: true,
 			items: 1,
 			nav: true,
 			dots: true,
