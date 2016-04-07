@@ -2,4 +2,4 @@
 	Shell
 \* ------------------------------------------------------------ */
 
-.shell { max-width: $shell-max-width; margin: auto; padding: 0 12px; }
+.shell { max-width: 80%; margin: auto; padding: 0 12px;overflow: hidden; }

@@ -32,9 +32,9 @@
 	<header class="header">
 		<a href="#" class="logo"></a>
 
-		<a href="#" class="btn btn-primary"><span class="hidden-mobile">PRE-ORDER</span><span class="visible-mobile">PREORDER</span></a>
+		<div  class="btn btn-primary scroll"><a href="#productjump" class="hidden-mobile">PRE-ORDER</a><a href="#productjump" class="visible-mobile">PREORDER</a></div>
 
-		<nav class="nav">
+		<nav class="nav scroll">
 			<ul>
 				<li>
 					<a href="#productjump">PRODUCT</a>
@@ -67,14 +67,13 @@
           <p>HIGH CLASS DEVICES</p>
 		</div><!-- /.intro-content -->
 	</div><!-- /.intro -->
-	
-	<div id="video-wrap"> <!--video placeholder -->
-    <video id="my-video" preload="metadata" autoplay loop>
-        <source src="css/images/temp/webvid.mp4" type="video/mp4">
-    </video>
+
+	<div id="video-wrap">
+	<div id="play-button" class="play" ><img src="css/images/sprite/playbutton.png" alt="play_button" ></div> <!--video placeholder -->
+    <video id="background-video" preload="metadata" src="css/images/temp/webvid.mp4" type="video/mp4" ></video>
 	</div> <!-- /.video-wrap -->
 	
-    <a name="productjump"><div name="anchor">.</div></a> <!-- Spacing anchor for page jump -->
+    <a id="productjump"><div class="anchor">.</div></a> <!-- Spacing anchor for page jump -->
 	
 	<section class="section section-about">
 		<!-- <div class="shell"> -->
@@ -93,10 +92,11 @@
 			<div class="slider slider-about slider-primary">
 				<div class="slider-clip">
 					<div class="slides owl-carousel">
-						<div class="slide slide-1">
-							<div class="shell">
-                                <div class="slide-image product-carousel" style="background-image: url(css/images/temp/slide1-1.jpg)">
+						<div class="slide slide-1 slide-left">
+						 <div class="slide-image product-carousel" style="background-image: url(css/images/temp/slide1-1.jpg)">
 								</div><!-- /-image -->
+							<div class="shell">
+                               
 
 								<div class="slide-content">
 								  <img class="slide-logo" src="css/images/temp/aura_logo_light-01.png">
@@ -115,11 +115,11 @@
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-2">
-							<div class="shell">
-								<div class="slide-image" style="background-image: url(css/images/temp/slide1-2.jpg)">
+						<div class="slide slide-2 slide-right">
+						<div class="slide-image" style="background-image: url(css/images/temp/slide1-2.jpg)">
 								</div><!-- /.slide-image -->
 
+							<div class="shell">
 								<div class="slide-content">
                                   <h2>DURABLE</h2>
                                   <p>
@@ -129,11 +129,10 @@
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-3">
-							<div class="shell">
-								<div class="slide-image" style="background-image: url(css/images/temp/slide1-3.jpg)">
+						<div class="slide slide-3 slide-right">
+						<div class="slide-image" style="background-image: url(css/images/temp/slide1-3.jpg)">
 								</div><!-- /.slide-image -->
-
+							<div class="shell">
 								<div class="slide-content">
                                   <h2>EASY LOADING</h2>
                                   <p>
@@ -144,11 +143,10 @@
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-4">
-							<div class="shell">
-								<div class="slide-image" style="background-image: url(css/images/temp/slide1-4.jpg)">
+						<div class="slide slide-4 slide-right">
+						<div class="slide-image" style="background-image: url(css/images/temp/slide1-4.jpg)">
 								</div><!-- /.slide-image -->
-
+							<div class="shell">
 								<div class="slide-content">
                                   <h2>COLD FILTERED</h2>
                                   <p>
@@ -158,11 +156,10 @@
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-5">
-							<div class="shell">
-								<div class="slide-image" style="background-image: url(css/images/temp/slide1-5.jpg)">
+						<div class="slide slide-5 slide-right">
+						<div class="slide-image" style="background-image: url(css/images/temp/slide1-5.jpg)">
 								</div><!-- /.slide-image -->
-
+							<div class="shell">
 								<div class="slide-content">
                                   <h2>MODULAR</h2>
                                   <p>
@@ -178,50 +175,45 @@
 		</div><!-- /.section-body -->
 	</section><!-- /.section -->
 
-	<a name="featuresjump"><div name="anchor">.</div></a> <!-- Spacing anchor for page jump -->
+	<a id="featuresjump"><div class="anchor">.</div></a> <!-- Spacing anchor for page jump -->
 	
 	<section class="section product-carousel">
-		<div class="section-body">
+		<div class="section-body slider-about">
 			<div class="slider slider-info slider-primary">
 				<div class="slider-clip">
 					<div class="slides owl-carousel">
-						<div class="slide slide-1">
+
+						<div class="slide slide-1 slide-right">
+							<div class="slide-image" style="background-image: url(css/images/temp/slide2-1.jpg);">
+							</div><!-- /.slide-image -->
+
 							<div class="shell">
-								<div class="slide-image" style="background-image: url(css/images/temp/slide2-1.jpg);">
-
-								</div><!-- /.slide-image -->
-
 								<div class="slide-content">
-									<div class="shell">
-										<h2>INTUITIVE</h2>
-
-                                        <p>
-                                          Aura’s branching form provides a natural grip and angles the mouthpiece towards you to prevent discomfort while smoking.
-                                        </p>
-									</div><!-- /.shell -->
+                                  <h2>INTUITIVE</h2>
+                                  <p>
+                                    Aura’s branching form provides a natural grip and angles the mouthpiece towards you to prevent discomfort while smoking.
+                                  </p>
 								</div><!-- /.slide-content -->
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-2">
-							<div class="shell">
+						<div class="slide slide-2 slide-right slide-width">
 								<div class="slide-image" style="background-image: url(css/images/temp/slide2-2.jpg);">
-
 								</div><!-- /.slide-image -->
-
+							<div class="shell">
 								<div class="slide-content">
-									<div class="shell">
+								
 										<h2>IN CONTROL</h2>
 
                                         <p>
                                           The bowl piece is positioned directly in view to give greater comfort and control when lighting. Raising the bowl piece allows air to clear smoke through the chamber.
                                         </p>
-									</div><!-- /.shell -->
+									
 								</div><!-- /.slide-content -->
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-3">
+						<div class="slide slide-3 slide-right slide-width">
 							<div class="shell">
 								<div class="slide-image" style="background-image: url(css/images/temp/slide2-3.jpg);">
 
@@ -239,13 +231,13 @@
 							</div><!-- /.shell -->
 						</div><!-- /.slide -->
 
-						<div class="slide slide-4">
+						<div class="slide slide-4 slide-right">
 							<div class="shell">
 								<div class="slide-image" style="background-image: url(css/images/temp/slide2-4.jpg);">
 
 								</div><!-- /.slide-image -->
 
-								<div class="slide-content">
+								<div class="slide-content ">
 									<div class="shell">
 										<h2>STASH</h2>
 
@@ -289,7 +281,7 @@
 		</div><!-- /.shell -->
 	</section><!-- /.section-logos -->
 	
-	<a name="timelinejump"><div name="anchor">.</div></a> <!-- Spacing anchor for page jump -->
+	<a id="timelinejump"><div class="anchor">.</div></a> <!-- Spacing anchor for page jump -->
 	
 	<section class="section-timeline">
 		<div class="slider slider-timeline">
@@ -400,7 +392,7 @@
 						</div><!-- /.slide-meta -->
 
 						<div class="slide-content">
-							<h1>Pre - Orders</h1>
+							<h1>Pre-Orders</h1>
 
 							<p>Help us take the last steps to make Aura a reality. Pre-orders are open now, and are being used to pay for the final costs to produce 3,000 units. We would not be ablle to pay for the tooling needed to make this a reality wihtout your help, and we cannot thank you enoght for your support. As soon as Aura meets its funding goal we will launch full production.</p>
 						</div><!-- /.slide-content -->
@@ -525,12 +517,10 @@
 </div><!-- /.wrapper -->
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- for videoloop -->
-<script type="text/javascript" src="vendor/backgroundVideo.js"></script> <!-- for videoloop -->
-<script> <!-- for videoloop -->
-    $(document).ready(function() {
-        $(element).backgroundVideo();
-    });
-</script> <!-- for videoloop -->
+
+<!-- Proxima nova ff-->
+<script src="https://use.typekit.net/mtl8vqo.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </body>
 </html>

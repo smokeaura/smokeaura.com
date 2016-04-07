@@ -3,3 +3,9 @@
 \* ------------------------------------------------------------ */
 
 .content {}
+#video-wrap{position: relative; width: 100%; height:100%;margin: 0 auto;background: #000000; text-align: center;line-height: 0;}
+#video-wrap video{width: 100%; height: 100%;}
+
+#play-button{position: absolute;width: 97px;height: 98px;top: 0;bottom: 0;left: 0;right: 0;margin: auto;display: block;cursor: pointer;z-index: 2;}
+.anchor{display: none; height: 0;}
+

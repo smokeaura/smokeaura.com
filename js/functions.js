@@ -39,5 +39,43 @@
 
 			$('.nav').toggleClass('visible');
 		});
+
+		//Video
+		var $playButton = $('#play-button'),
+			videoPlayer = document.getElementById('background-video');
+			$video = $(videoPlayer);
+
+		$playButton.on('click touchend', function(event) {
+			event.stopPropagation();
+			event.preventDefault();
+
+			$playButton.hide();
+			videoPlayer.play();
+		});
+
+		$video.on('click touchend', function() {
+			$playButton.show();
+ 			videoPlayer.pause();
+		});
 	});
 })(jQuery, window, document);
+
+$(document).ready(function(){
+	$(".scroll").on("click","a", function (event) {
+
+		event.preventDefault();
+
+
+		var id  = $(this).attr('href'),
+
+
+			top = $(id).offset().top;
+		
+
+		$('body,html').animate({scrollTop: top-55}, 1500);
+	});
+});
+
+
+
+
