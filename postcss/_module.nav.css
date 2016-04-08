@@ -7,7 +7,7 @@
 .nav li { float: left; }
 .nav li ~ li { margin-left: 30px; }
 .nav a { font-family: $font-family-serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
-.nav a:hover{text-decoration: none;padding: 0 0 15px 0;display:block; border-bottom: 2px solid #000000;}
+.nav a:hover{text-decoration: none;padding: 0 0 16px 0;display:block; border-bottom: 2px solid #000000;}
 
 .nav-trigger { display: none; }
 

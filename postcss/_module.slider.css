@@ -83,6 +83,14 @@ $breakpoint-mobile {
   max-width: 280px;
 }
 
+.slider-about .slide-stash .slide-content {
+  float: right;
+  max-width: 380px;
+  color: #757575;
+}
+
+
+
 .slider-about .slide-width .slide-content{
   max-width: 380px;
 }
