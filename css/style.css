@@ -1,8 +1,7 @@
 /* 
 	Table of Contents
-	update on Fri Apr 08 2016 00:30:13 GMT-0700 (PDT)
+	update on Fri Apr 08 2016 12:18:41 GMT+0300 (Финляндия (лето))
 
-	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
 	     02. Base -------------------------------------
 	     03. Fonts ------------------------------------
@@ -14,60 +13,56 @@
 	         Alignright -------------------------------
 	         Disabled ---------------------------------
 	         Visible Mobile ---------------------------
-	II.  Regions --------------------------------------
-	     01. Container --------------------------------
-	     02. Content ----------------------------------
-	     03. Footer -----------------------------------
-	     04. Header -----------------------------------
-	     05. Main -------------------------------------
-	     06. Shell ------------------------------------
-	     07. Sidebar ----------------------------------
-	     08. Wrapper ----------------------------------
-	III. Modules --------------------------------------
-	     01. Button -----------------------------------
+	     05. Container --------------------------------
+	     06. Content ----------------------------------
+	     07. Footer -----------------------------------
+	     08. Header -----------------------------------
+	     09. Main -------------------------------------
+	     10. Shell ------------------------------------
+	     11. Sidebar ----------------------------------
+	     12. Wrapper ----------------------------------
+	     13. Button -----------------------------------
 	         Button Block -----------------------------
-	     02. Form Elements ----------------------------
-	     03. Form -------------------------------------
-	     04. Intro ------------------------------------
-	     05. List -------------------------------------
-	     06. List Logos -------------------------------
-	     07. Logo -------------------------------------
-	     08. Nav --------------------------------------
-	     09. Section About ----------------------------
-	     10. Section Logos ----------------------------
-	     11. Section Parallax -------------------------
-	     12. Section Timeline -------------------------
-	     13. Slider -----------------------------------
-	     14. Slider About -----------------------------
-	     15. Slider Info ------------------------------
-	     16. Slider Timeline --------------------------
-	     17. Socials ----------------------------------
-	     18. Table ------------------------------------
-	     19. Widget -----------------------------------
+	     14. Form Elements ----------------------------
+	     15. Form -------------------------------------
+	     16. Intro ------------------------------------
+	     17. List -------------------------------------
+	     18. List Logos -------------------------------
+	     19. Logo -------------------------------------
+	     20. Nav --------------------------------------
+	     21. Section About ----------------------------
+	     22. Section Logos ----------------------------
+	     23. Section Parallax -------------------------
+	     24. Section Timeline -------------------------
+	     25. Slider -----------------------------------
+	     26. Slider About -----------------------------
+	     27. Slider Info ------------------------------
+	     28. Slider Timeline --------------------------
+	     29. Socials ----------------------------------
+	     30. Table ------------------------------------
+	     31. Widget -----------------------------------
  */
 
-.ico-behance { background-image: url(../css/images/sprite.png); background-position: -160px -129px; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-facebook { background-image: url(../css/images/sprite.png); background-position: -36px -148px; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-instagram { background-image: url(../css/images/sprite.png); background-position: -134px -104px; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-linkedin { background-image: url(../css/images/sprite.png); background-position: -183px -104px; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-logo { background-image: url(../css/images/sprite.png); background-position: 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-next { background-image: url(../css/images/sprite.png); background-position: 0 -148px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-prev { background-image: url(../css/images/sprite.png); background-position: -18px -148px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-twitter { background-image: url(../css/images/sprite.png); background-position: -158px -104px; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-youtube { background-image: url(../css/images/sprite.png); background-position: -134px -129px; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
-.logo { background-image: url(../css/images/sprite.png); background-position: 0 -104px; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
-.playbutton { background-image: url(../css/images/sprite.png); background-position: -104px 0; width: 98px; height: 98px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-behance { background: url(../css/images/sprite/ico-behance.png) no-repeat 0 0; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-facebook { background: url(../css/images/sprite/ico-facebook.png) no-repeat 0 0; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-instagram { background: url(../css/images/sprite/ico-instagram.png) no-repeat 0 0; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-linkedin { background: url(../css/images/sprite/ico-linkedin.png) no-repeat 0 0; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-logo { background: url(../css/images/sprite/ico-logo.png) no-repeat 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-next-grey { background: url(../css/images/sprite/ico-next-grey.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-next { background: url(../css/images/sprite/ico-next.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-next-2-x-grey { background: url(../css/images/sprite/ico-next@2x-grey.png) no-repeat 0 0; width: 28px; height: 54px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-prev-grey { background: url(../css/images/sprite/ico-prev-grey.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-prev { background: url(../css/images/sprite/ico-prev.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-prev-2-x-grey { background: url(../css/images/sprite/ico-prev@2x-grey.png) no-repeat 0 0; width: 28px; height: 54px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-twitter { background: url(../css/images/sprite/ico-twitter.png) no-repeat 0 0; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-youtube { background: url(../css/images/sprite/ico-youtube.png) no-repeat 0 0; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo { background: url(../css/images/sprite/logo.png) no-repeat 0 0; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.ico-logo { background-image: url(../css/images/sprite.@2x.png); background-position: 0 0; background-size: 116px 100px; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-next { background-image: url(../css/images/sprite.@2x.png); background-position: -102px 0; background-size: 116px 100px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-prev { background-image: url(../css/images/sprite.@2x.png); background-position: -102px -29px; background-size: 116px 100px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-logo { background: url(../css/images/sprite/ico-logo@2x.png) no-repeat 0 0; width: 100px; height: 100px; background-size: 100px 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-next { background: url(../css/images/sprite/ico-next@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-prev { background: url(../css/images/sprite/ico-prev@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
 }
-
-/* ------------------------------------------------------------ *\
-	I.   Generic
-\* ------------------------------------------------------------ */
-
 /* ------------------------------------------------------------ *\
 	Reset
 \* ------------------------------------------------------------ */
@@ -152,12 +147,11 @@ table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 
 nav ul,
 nav ol { list-style: none outside none; }
-
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
 
-body { min-width: 320px; background: #fff; font-family: 'Din', 'Arial', 'Helvetica', sans-serif; font-size: 13px; line-height: 1.3; color: #b8b8b8; }
+body { min-width: 320px; background: #fff; font-family: "proxima-nova", sans-serif; font-size: 13px; line-height: 1.3; color: #b8b8b8; }
 
 a { color: inherit; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -212,7 +206,6 @@ blockquote:last-child { margin-bottom: 0; }
 	h3 { font-size: 17px; }
 	h4 { font-size: 16px; }
 }
-
 /* ------------------------------------------------------------ *\
 	Fonts
 \* ------------------------------------------------------------ */
@@ -249,7 +242,6 @@ blockquote:last-child { margin-bottom: 0; }
     font-weight: 400;
     font-style: normal;
 }
-
 /* ------------------------------------------------------------ *\
 	Helpers
 \* ------------------------------------------------------------ */
@@ -296,18 +288,11 @@ blockquote:last-child { margin-bottom: 0; }
 
 @media ( max-width: 768px ) {
 	.hidden-mobile { display: none !important; }
-}
-
-/* ------------------------------------------------------------ *\
-	II.  Regions
-\* ------------------------------------------------------------ */
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Container
 \* ------------------------------------------------------------ */
 
 .container {}
-
 /* ------------------------------------------------------------ *\
 	Content
 \* ------------------------------------------------------------ */
@@ -332,12 +317,11 @@ blockquote:last-child { margin-bottom: 0; }
 .footer-nav a { font-family: 'Crimson Text', 'Times', serif; font-weight: 600; font-size: 11px; }
 
 .footer .copyright { opacity: .48; }
-
 /* ------------------------------------------------------------ *\
 	Header
 \* ------------------------------------------------------------ */
 
-.header { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; height: 56px; padding-top: 11px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #515151; text-align: center; }
+.header { position: fixed; top:0px; left: 0; z-index: 10; width: 100%; height: 56px; padding-top: 11px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #515151; text-align: center; }
 .header .logo { position: absolute;  left: 60px; top:0;}
 
 @media (max-width: 1023px) {
@@ -348,35 +332,26 @@ blockquote:last-child { margin-bottom: 0; }
 	.header { height: 39px; padding-top: 10px; }
 	.header .logo { left: 9px; top: 0px;height: 47px;  -webkit-transform-origin: 0 0;  -ms-transform-origin: 0 0;  transform-origin: 0 0; -webkit-transform: scale(.8); -ms-transform: scale(.8); transform: scale(.8); }
 }
-
 /* ------------------------------------------------------------ *\
 	Main
 \* ------------------------------------------------------------ */
 
 .main {}
-
 /* ------------------------------------------------------------ *\
 	Shell
 \* ------------------------------------------------------------ */
 
 .shell { max-width: 80%; margin: auto; padding: 0 12px;overflow: hidden; }
-
 /* ------------------------------------------------------------ *\
 	Sidebar
 \* ------------------------------------------------------------ */
 
 .sidebar {}
-
 /* ------------------------------------------------------------ *\
 	Wrapper
 \* ------------------------------------------------------------ */
 
 .wrapper {}
-
-/* ------------------------------------------------------------ *\
-	III. Modules
-\* ------------------------------------------------------------ */
-
 /* ------------------------------------------------------------ *\
 	Button
 \* ------------------------------------------------------------ */
@@ -393,7 +368,6 @@ blockquote:last-child { margin-bottom: 0; }
 @media (max-width: 767px) {
 	.btn-primary { padding: 5px 17px 3px; font-size: 10px;line-height: 10px; }
 }
-
 /* ------------------------------------------------------------ *\
 	Form Elements
 \* ------------------------------------------------------------ */
@@ -417,13 +391,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .select {}
 .radio {}
 .checkbox {}
-
 /* ------------------------------------------------------------ *\
 	Form
 \* ------------------------------------------------------------ */
 
 .form {}
-
 /* ------------------------------------------------------------ *\
 	Intro
 \* ------------------------------------------------------------ */
@@ -487,14 +459,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 @media (max-width: 767px) {
 	.list-logos { text-align: center; }
 
-}
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Logo
 \* ------------------------------------------------------------ */
 
 .logo {}
-
 /* ------------------------------------------------------------ *\
 	Nav
 \* ------------------------------------------------------------ */
@@ -504,7 +473,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .nav li { float: left; }
 .nav li ~ li { margin-left: 30px; }
 .nav a { font-family: 'Crimson Text', 'Times', serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
-.nav a:hover{text-decoration: none;padding: 0 0 15px 0;display:block; border-bottom: 2px solid #000000;}
+.nav a:hover{text-decoration: none;padding: 0 0 16px 0;display:block; border-bottom: 2px solid #000000;}
 
 .nav-trigger { display: none; }
 
@@ -535,7 +504,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.nav li ~ li { margin-left: 0; margin-top: 10px; }
 	.nav a:hover{text-decoration: underline;padding: 0;border-bottom: none;}
 }
-
 /* ------------------------------------------------------------ *\
 	Section About
 \* ------------------------------------------------------------ */
@@ -577,6 +545,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 \* ------------------------------------------------------------ */
 
 .section-timeline { padding: 50px 0; }
+
 
 /* ------------------------------------------------------------ *\
 	Slider
@@ -662,6 +631,14 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   float: right;
   max-width: 280px;
 }
+
+.slider-about .slide-stash .slide-content {
+  float: right;
+  max-width: 380px;
+  color: #757575;
+}
+
+
 
 .slider-about .slide-width .slide-content{
   max-width: 380px;
@@ -756,7 +733,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.slider-timeline .owl-prev,
 	.slider-timeline .owl-next { top: 290px; margin-top: 0; }
 }
-
 /* ------------------------------------------------------------ *\
 	Socials
 \* ------------------------------------------------------------ */
@@ -766,13 +742,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .socials li { display: inline-block; vertical-align: middle; }
 .socials li ~ li { margin-left: 25px; }
 .socials a { display: block; }
-
 /* ------------------------------------------------------------ *\
 	Table
 \* ------------------------------------------------------------ */
 
 .table {}
-
 /* ------------------------------------------------------------ *\
 	Widget
 \* ------------------------------------------------------------ */
