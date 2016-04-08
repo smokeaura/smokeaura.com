@@ -108,6 +108,7 @@ $breakpoint-mobile {
   .slider-about .owl-dots { position: absolute; bottom: 35px; }
   .slider-about .owl-item .slide{max-height:715px ; padding: 360px 0 140px;}
   .slider-about .owl-item .slide-1{padding: 90px 0 160px 0;}
+  .slider-about .slide-stash .slide-content {color: #b8b8b8;}
 }
 /* ------------------------------------------------------------ *\
 	Slider Info
