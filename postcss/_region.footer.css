@@ -2,12 +2,12 @@
 	Footer
 \* ------------------------------------------------------------ */
 
-.footer { padding: 37px 0; border-top: 2px solid #c6c6c6; text-align: center; }
+.footer { padding: 30px 0; border-top: 2px solid #c6c6c6; text-align: center; }
 
-.footer-nav { margin-bottom: 13px; }
+.footer-nav { margin-bottom: 10px; }
 .footer-nav ul { display: inline-block; overflow: hidden; line-height: 1; }
 .footer-nav li { float: left; }
-.footer-nav li ~ li { padding-left: 10px; border-left: 1px solid #666; margin-left: 10px; }
-.footer-nav a { font-family: $font-family-serif; font-weight: 600; font-size: 11px; }
+.footer-nav li ~ li { padding-left: 15px; border-left: 1px solid #666; margin-left: 15px; }
+.footer-nav a { font-family: $font-family-serif; font-weight: 400; font-size: 14px; letter-spacing: .1em }
 
 .footer .copyright { opacity: .48; }
