@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 07:14:04 GMT-0700 (PDT)
+	update on Wed Apr 20 2016 08:24:59 GMT-0700 (PDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -422,7 +422,8 @@ blockquote:last-child { margin-bottom: 0; }
 .btn .email-form{border:1px solid #515151;}
 .btn .email-form input{background-color: #E0E0E0;color: #444;font-size: 1rem;line-height: 25px;padding:5px 20px 5px;}
 .btn .email-form .email-btn{color:#404040;background-color: #fff;float: right;font-family: 'Shonar Bangla', 'Times', serif; letter-spacing: .1em; font-size: 1.5rem; width: 40%;}
-.btn .email-form .email-text{border-right:1px solid #000000; float: left; width: 60%;}
+.btn .email-form .email-btn{-webkit-appearance:none; border-radius:0;color:#404040;background-color: #fff;float: right;font-family: 'Shonar Bangla', 'Times', serif; font-size: 1.5rem; width: 40%;}
+.btn .email-form .email-text{-webkit-appearance:none;border-radius:0;border-right:1px solid #000000; float: left; width: 60%;}
 /*  Button Block  */
 .btn-block { display: block; padding-left: 0; padding-right: 0; }
 
