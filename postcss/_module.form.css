@@ -36,10 +36,11 @@
 }
 
 .form .email .close{
-	width: 20px;
-	height: 20px;
+	width: 31px;
+	height: 31px;
 	background-image: url(../css/images/temp/close.png);
 	background-size: cover;
+	background-position: 0 0;
 	position: absolute;
 	top: 25px;
 	right: 25px;

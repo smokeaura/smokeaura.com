@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 12:35:09 GMT+0300 (Финляндия (лето))
+	update on Wed Apr 20 2016 12:47:41 GMT+0300 (Финляндия (лето))
 
 	     01. Reset ------------------------------------
 	     02. Base -------------------------------------
@@ -455,10 +455,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 }
 
 .form .email .close{
-	width: 20px;
-	height: 20px;
+	width: 31px;
+	height: 31px;
 	background-image: url(../css/images/temp/close.png);
 	background-size: cover;
+	background-position: 0 0;
 	position: absolute;
 	top: 25px;
 	right: 25px;
