@@ -161,7 +161,7 @@ $breakpoint-mobile {
 }
 .slider-info .slide-content { position: relative; max-width: 360px; padding: 0 25px; }
 
-.slider-info .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
+.slider-info .owl-dots { position: absolute; bottom: 50px; left: 0; width: 100%; padding-top: 0; }
 
 .slider-info .slide-logo {
   width: 160px !important;
@@ -187,7 +187,7 @@ $breakpoint-mobile {
 
 $breakpoint-mobile {
   .slider-info .slide { padding-top: 285px; padding-bottom: 0; }
-  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; background-size: cover;}
+  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-size: cover;}
   .slider-info .slide-content { text-align: center; max-width:100%; margin: 0 auto; }
   .slider-info .owl-dots { position: absolute; bottom: 5px; }
   .slider-info .owl-item .slide{max-height:715px ; padding: 270px 0 55px;}
