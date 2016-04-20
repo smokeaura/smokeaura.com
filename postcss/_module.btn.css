@@ -4,14 +4,14 @@
 
 .btn { display: inline-block; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
-.btn-primary { padding: 6px 20px 4px; border: 1px solid #515151; font-family: $font-family-serif; font-size: 18px; line-height:18px; letter-spacing: 0.15em; font-weight: 600; }
+.btn-primary { padding: 8px 20px 8px; border: 1px solid #515151; font-family: $font-family-serif; font-size: 18px; line-height:18px; letter-spacing: 0.1em; font-weight: 400; }
 .btn-primary:hover { text-decoration: none; }
 
 
 .btn .email-form input,.btn .email-form fieldset{ border:none; }
-.btn .email-form{border:1px solid #000000;}
-.btn .email-form input{background-color: #d0d0d0;color: #000000;font-size: 1rem;line-height: 25px;padding:5px 20px 5px;
-}
+.btn .email-form{border:1px solid #515151;}
+.btn .email-form input{background-color: #E0E0E0;color: #444;font-size: 1rem;line-height: 25px;padding:5px 20px 5px;}
+.btn .email-form .email-btn{color:#404040;background-color: #fff;float: right;font-family: $font-family-logo; letter-spacing: .1em; font-size: 1.5rem; width: 40%;}
 .btn .email-form .email-btn{-webkit-appearance:none; border-radius:0;color:#404040;background-color: #fff;float: right;font-family: $font-family-logo; font-size: 1.5rem; width: 40%;}
 .btn .email-form .email-text{-webkit-appearance:none;border-radius:0;border-right:1px solid #000000; float: left; width: 60%;}
 /*  Button Block  */
