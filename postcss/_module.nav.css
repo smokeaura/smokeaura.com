@@ -2,11 +2,11 @@
 	Nav
 \* ------------------------------------------------------------ */
 
-.nav { position: absolute; top: 20px; right: 59px; }
+.nav { position: absolute; top: 15px; right: 59px; }
 .nav ul { overflow: hidden; }
 .nav li { float: left; }
 .nav li ~ li { margin-left: 30px; }
-.nav a { font-family: $font-family-serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
+.nav a { font-family: $font-family-serif; font-size: 18px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 400; }
 .nav a:hover{text-decoration: none;padding: 0 0 16px 0;display:block; border-bottom: 2px solid #000000;}
 
 .nav-trigger { display: none; }
