@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Tue Apr 19 2016 17:24:42 GMT+0300 (Финляндия (лето))
+	update on Wed Apr 20 2016 11:45:21 GMT+0300 (Финляндия (лето))
 
 	     01. Reset ------------------------------------
 	     02. Base -------------------------------------
@@ -331,9 +331,10 @@ blockquote:last-child { margin-bottom: 0; }
 	Header
 \* ------------------------------------------------------------ */
 
-.header { position: fixed; top:0px; left: 0; z-index: 10; width: 100%; height: 56px; padding-top: 11px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #515151; text-align: center; }
+.header { position: fixed; top:0px; left: 0; z-index: 10; width: 100%; height: 56px; border-bottom: 1px solid #d9d9d9; background: #fff; color: #515151; text-align: center; }
 .header .logo { position: absolute;  left: 60px; top:9px;}
 .header .mobile-email{display: none;}
+.header .btn{padding: 9px 0;}
 
 
 @media (max-width: 1023px) {
@@ -441,7 +442,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .form .email{
 	position: relative;
 	margin: 0 auto;
-	border:4px solid #a4886f;
+	outline:4px solid #a4886f;
 	position: fixed;
 	top: 150px;
 	width: 500px;
@@ -510,7 +511,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 
 .intro-content {
   position: absolute;
-  padding-top: 134px;
+  padding-top: 40px;
   z-index: 2;
   color: #d0d0d0;
   text-align: center;
@@ -525,8 +526,8 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   font-family: 'Shonar Bangla', 'Times', serif;
   font-size: 6rem;
   letter-spacing: .04em;
-  line-height: 1em;
-  margin-bottom: .1em;
+  line-height: 2.5rem;
+  margin-bottom: 0;
   font-weight: 100;
 }
 .intro-content p {
@@ -534,7 +535,9 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   font-size: 1.5rem;
   font-weight: 100;
 }
-
+.intro-content .text span{
+  font-weight: 100;
+}
 
 .intro-content .btn{
   margin: 30px 0 0;
@@ -545,6 +548,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 100;
+  margin-bottom: 3px;
 }
 @media (max-width: 1024px){
     .intro {min-height: 768px;height: 768px;}
@@ -555,7 +559,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 }
 
 @media (max-width: 767px) {
-	.intro-content { padding: 50px 0 30px; }
+	.intro-content { padding: 20px 0 30px; }
   .intro {min-height: 480px;}
 }
 
@@ -714,7 +718,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   max-height: 990px;
 }
 .slider-about .owl-item  .slide-first-1{
-  padding:250px 0 200px 0;
+  padding:200px 0;
 
 }
 .slider-about .owl-item  .slide-first-1 .slide-image{
@@ -749,6 +753,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   line-height: .9em;
   padding-bottom: .2rem;
   color: #707070;
+  font-family: 'Shonar Bangla', 'Times', serif;
 }
 
 .slider-about p {
@@ -802,8 +807,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 
 .slider-info .owl-item .slide {
   position: relative;
-  padding: 485px 0 ;
+  padding: 381px 0 ;
   max-height: 1500px;
+}
+.slider-info .owl-item  .slide-box-bg{
+  padding:263px 0 ;
 }
 .slider-info .slide-image {
   position: absolute;
@@ -814,6 +822,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  height: 900px;
 }
 .slider-info .slide-content { position: relative; max-width: 360px; padding: 0 25px; }
 
@@ -831,20 +840,21 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   line-height: .9em;
   padding-bottom: .2rem;
    color: #707070;
+   font-family: 'Shonar Bangla', 'Times', serif;
 }
 
 .slider-info p {
   font-size: 1rem;
-  color: #707070;
+  color: #404040;
 }
 
 
 
 @media (max-width: 767px) {
   .slider-info .slide { padding-top: 285px; padding-bottom: 0; }
-  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; }
+  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; background-size: cover;}
   .slider-info .slide-content { text-align: center; max-width:100%; margin: 0 auto; }
-  .slider-info .owl-dots { position: absolute; bottom: 35px; }
+  .slider-info .owl-dots { position: absolute; bottom: 5px; }
   .slider-info .owl-item .slide{max-height:715px ; padding: 310px 0 140px;}
 
 }

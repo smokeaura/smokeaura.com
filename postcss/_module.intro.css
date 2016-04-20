@@ -7,7 +7,7 @@
 
 .intro-content {
   position: absolute;
-  padding-top: 134px;
+  padding-top: 40px;
   z-index: 2;
   color: #d0d0d0;
   text-align: center;
@@ -22,8 +22,8 @@
   font-family: $font-family-logo;
   font-size: 6rem;
   letter-spacing: .04em;
-  line-height: 1em;
-  margin-bottom: .1em;
+  line-height: 2.5rem;
+  margin-bottom: 0;
   font-weight: 100;
 }
 .intro-content p {
@@ -31,7 +31,9 @@
   font-size: 1.5rem;
   font-weight: 100;
 }
-
+.intro-content .text span{
+  font-weight: 100;
+}
 
 .intro-content .btn{
   margin: 30px 0 0;
@@ -42,6 +44,7 @@
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 100;
+  margin-bottom: 3px;
 }
 @media (max-width: 1024px){
     .intro {min-height: 768px;height: 768px;}
@@ -52,7 +55,7 @@ $breakpoint-tablet-portrait{
 }
 
 $breakpoint-mobile {
-	.intro-content { padding: 50px 0 30px; }
+	.intro-content { padding: 20px 0 30px; }
   .intro {min-height: 480px;}
 }
 
