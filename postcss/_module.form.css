@@ -2,4 +2,85 @@
 	Form
 \* ------------------------------------------------------------ */
 
-.form {}
+.form {position: fixed;width: 100%; height: 100%;z-index: 10000; background: rgba(0,0,0 ,.80); text-align: center; font-size: 14px; color: #ffffff;}
+.form ul{list-style: none;}
+.form .entr-box{font-weight: 400;}
+
+.form .entr-box li{display: inline-block;margin: 20px 5px 10px;}
+.form .entr-box li a{border:1px solid #ffffff; background-color: #1b1b1b;padding: 5px 20px;text-transform: uppercase; }
+
+
+
+
+.form .form_box{ background: rgba(0,0,0 ,.5);position: absolute; top: 25%; width: auto; height: 300px; border: 1px solid #ffffff;left: 35%; right: 35%;padding:  40px 20px; font-weight: 100;}
+.form .age .no-notice{margin: 45px 0; position: absolute;left: 0;right: 0;}
+.form .age span{display:block;}
+.form .age strong{font-size: 54px;font-family:'Shonar Bangla', 'Times', serif;font-weight: 100; }
+.form .no-notice{display: none;}
+.form .entr-no:hover .no-notice{display: block;}
+
+
+.form .email{
+	position: relative;
+	margin: 0 auto;
+	border:4px solid #a4886f;
+	position: fixed;
+	top: 150px;
+	width: 500px;
+	background-color: #ffffff;
+	left: 0;
+	right: 0;
+	padding: 40px 100px;
+	color: #000000;
+	font-size: 1.1rem;
+}
+
+.form .email .close{
+	width: 20px;
+	height: 20px;
+	background-image: url(../css/images/sprite/close.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor:pointer;
+}
+.form .email img{
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin: 0 auto 40px;
+}
+
+.form .email strong{
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+	line-height: 2.5rem;
+}
+.form .email span{
+	display: block;
+}
+.form .email .img-email{
+	margin: 40px 0 ;
+	width: 100%;
+	height: auto;
+}
+$breakpoint-mobile{
+	.form .email{width: 80%; padding: 40px 20px;top: 50px;}
+	.form .form_box{left: 20%;right: 20%;}
+	.form .preord{padding: 40px 15px;}
+	.form .email img{margin: 0 auto 10px;}
+
+}
+
+$breakpoint-mobile-portrait{
+	.form .form_box{left: 10px;right: 10px;}
+	.form .preord{padding: 40px 10px;}
+}
+
+
+ @media (max-width: 1024px){
+	.form .preord{padding: 40px 20px;}
+ }

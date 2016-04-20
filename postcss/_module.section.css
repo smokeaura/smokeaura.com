@@ -39,5 +39,9 @@ $breakpoint-mobile {
 \* ------------------------------------------------------------ */
 
 .section-timeline { padding: 50px 0; }
+.section-timeline .slider-clip{margin: 0px 0px 50px;padding: 0 0 30px; border-bottom:2px solid #c6c6c6;}
 
 
+$breakpoint-mobile {
+	.section-timeline .btn-primary {font-size: 18px;padding: 6px 20px 4px; }
+}

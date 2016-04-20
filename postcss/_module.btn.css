@@ -8,9 +8,19 @@
 .btn-primary:hover { text-decoration: none; }
 
 
+.btn .email-form input,.btn .email-form fieldset{ border:none; }
+.btn .email-form{border:1px solid #000000;}
+.btn .email-form input{background-color: #d0d0d0;color: #000000;font-size: 1rem;line-height: 25px;padding:7px 20px 3px;}
+.btn .email-form .email-btn{color:#404040;background-color: #fff;float: right;font-family: $font-family-logo; font-size: 1.5rem; width: 40%;}
+.btn .email-form .email-text{border-right:1px solid #000000; float: left; width: 60%;}
 /*  Button Block  */
 .btn-block { display: block; padding-left: 0; padding-right: 0; }
 
+$breakpoint-tablet-portrait {
+	.btn .email-form { }
+}
+
+
 $breakpoint-mobile {
-	.btn-primary { padding: 5px 17px 3px; font-size: 10px;line-height: 10px; }
+	
 }

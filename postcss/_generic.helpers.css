@@ -16,7 +16,12 @@
 /*  Hidden  */
 
 [hidden],
-.hidden { display: none; }
+.hidden { display: none!important; }
+
+/*  Visible  */
+
+[visible],
+.visible { display: block!important; }
 
 
 /*  Alignleft  */
