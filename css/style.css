@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 02:50:57 GMT-0700 (PDT)
+	update on Wed Apr 20 2016 05:28:50 GMT-0700 (PDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -561,7 +561,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   font-size: 6rem;
   letter-spacing: .04em;
   line-height: 2.5rem;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   font-weight: 100;
 }
 .intro-content p {
