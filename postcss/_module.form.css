@@ -36,15 +36,16 @@
 }
 
 .form .email .close{
-	width: 20px;
-	height: 20px;
-	background-image: url(../css/images/sprite/close.png);
-	background-size: cover;
+	/* width: 20px; */
+	/* height: 20px; */
+	/* background-image: url(../css/images/sprite/close.png); */
+	/* background-size: cover; */
 	position: absolute;
 	top: 25px;
 	right: 25px;
 	cursor:pointer;
 }
+
 .form .email img{
 	width: 64px;
 	height: 64px;
