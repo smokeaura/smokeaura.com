@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 05:28:50 GMT-0700 (PDT)
+	update on Wed Apr 20 2016 07:11:29 GMT-0700 (PDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -179,7 +179,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { margin-bottom: 0.65em; font-family: "proxima-nova", sans-serif; font-weight: 600; }
+h6 { margin-bottom: 0.65em; font-family: 'Shonar Bangla', 'Times', serif; font-weight: 600; }
 
 p,
 ul,
@@ -338,13 +338,13 @@ blockquote:last-child { margin-bottom: 0; }
 	Footer
 \* ------------------------------------------------------------ */
 
-.footer { padding: 37px 0; border-top: 2px solid #c6c6c6; text-align: center; }
+.footer { padding: 30px 0; border-top: 2px solid #c6c6c6; text-align: center; }
 
-.footer-nav { margin-bottom: 13px; }
+.footer-nav { margin-bottom: 10px; }
 .footer-nav ul { display: inline-block; overflow: hidden; line-height: 1; }
 .footer-nav li { float: left; }
-.footer-nav li ~ li { padding-left: 10px; border-left: 1px solid #666; margin-left: 10px; }
-.footer-nav a { font-family: "proxima-nova", sans-serif; font-weight: 600; font-size: 11px; }
+.footer-nav li ~ li { padding-left: 15px; border-left: 1px solid #666; margin-left: 15px; }
+.footer-nav a { font-family: 'Shonar Bangla', 'Times', serif; font-weight: 400; font-size: 14px; letter-spacing: .1em }
 
 .footer .copyright { opacity: .48; }
 
@@ -404,14 +404,14 @@ blockquote:last-child { margin-bottom: 0; }
 
 .btn { display: inline-block; vertical-align: middle; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
-.btn-primary { padding: 6px 20px 4px; border: 1px solid #515151; font-family: "proxima-nova", sans-serif; font-size: 18px; line-height:18px; letter-spacing: 0.15em; font-weight: 600; }
+.btn-primary { padding: 8px 20px 8px; border: 1px solid #515151; font-family: 'Shonar Bangla', 'Times', serif; font-size: 18px; line-height:18px; letter-spacing: 0.1em; font-weight: 400; }
 .btn-primary:hover { text-decoration: none; }
 
 
 .btn .email-form input,.btn .email-form fieldset{ border:none; }
-.btn .email-form{border:1px solid #000000;}
-.btn .email-form input{background-color: #d0d0d0;color: #000000;font-size: 1rem;line-height: 25px;padding:7px 20px 3px;}
-.btn .email-form .email-btn{color:#404040;background-color: #fff;float: right;font-family: 'Shonar Bangla', 'Times', serif; font-size: 1.5rem; width: 40%;}
+.btn .email-form{border:1px solid #515151;}
+.btn .email-form input{background-color: #E0E0E0;color: #444;font-size: 1rem;line-height: 25px;padding:5px 20px 5px;}
+.btn .email-form .email-btn{color:#404040;background-color: #fff;float: right;font-family: 'Shonar Bangla', 'Times', serif; letter-spacing: .1em; font-size: 1.5rem; width: 40%;}
 .btn .email-form .email-text{border-right:1px solid #000000; float: left; width: 60%;}
 /*  Button Block  */
 .btn-block { display: block; padding-left: 0; padding-right: 0; }
@@ -422,7 +422,7 @@ blockquote:last-child { margin-bottom: 0; }
 
 
 @media (max-width: 767px) {
-	
+
 }
 
 /* ------------------------------------------------------------ *\
@@ -626,11 +626,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	Nav
 \* ------------------------------------------------------------ */
 
-.nav { position: absolute; top: 20px; right: 59px; }
+.nav { position: absolute; top: 15px; right: 59px; }
 .nav ul { overflow: hidden; }
 .nav li { float: left; }
 .nav li ~ li { margin-left: 30px; }
-.nav a { font-family: "proxima-nova", sans-serif; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
+.nav a { font-family: 'Shonar Bangla', 'Times', serif; font-size: 18px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 400; }
 .nav a:hover{text-decoration: none;padding: 0 0 16px 0;display:block; border-bottom: 2px solid #000000;}
 
 .nav-trigger { display: none; }
@@ -803,7 +803,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .slider .slide-left .slide-content {
   float: left;
   border-right: 2px solid #707070;
-  
+
 }
 
 .slider .slide-right .slide-content {
@@ -916,10 +916,10 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .slider-timeline { text-align: center; }
 .slider-timeline .slide-head { position: relative; height: 280px; margin-bottom: 27px; text-align: center; }
 .slider-timeline .slide-head img { display: inline-block; width: auto; height: 100%; }
-.slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: "proxima-nova", sans-serif; font-weight: 600; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
+.slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: 'Shonar Bangla', 'Times', serif; font-weight: 600; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
 
 .slider-timeline .slide-meta { position: relative; margin-bottom: 30px; }
-.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #b8b8b8; background: #fff; font-family: "proxima-nova", sans-serif; font-weight: 600; text-transform: uppercase; font-size: 14px; letter-spacing: 0.21em; text-transform: uppercase; }
+.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #b8b8b8; background: #fff; font-family: 'Shonar Bangla', 'Times', serif; font-weight: 400; letter-spacing: .1em; text-transform: uppercase; font-size: 18px; text-transform: uppercase; }
 .slider-timeline .slide-meta:before { position: absolute; left: 0; right: 0; top: 0; bottom: 0; height: 3px; background: #b8b8b8; margin: auto 0; content: ''; }
 
 .slider-timeline .owl-item:first-child .slide-meta:before { left: 50%; }
