@@ -25,7 +25,7 @@
             dots: true,
             startPosition: 5
         })
-        
+
 
         var tryUpdateClasses = function() {
             if ($('.ico-prev')[0]) {
@@ -50,7 +50,7 @@
 
 
 
-        
+
 
 
         //Mobile Menu
@@ -78,10 +78,10 @@
         });
 
         //Email Menu
-        $('.email-btn').on('click', function(event) {
-            event.preventDefault();
+        $('form').on('submit', function(event) {
             $('.email-box').removeClass('hidden');
         });
+
         $('.close').on('click', function(event) {
             event.preventDefault();
             $('.email-box').addClass('hidden');
