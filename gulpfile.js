@@ -36,6 +36,7 @@ var config = {
     },
     build: {
       path: './build',
+      css: './build/css',
       images: './build/images'
     }
   },
@@ -322,6 +323,7 @@ var modules = {
         .pipe(gulpif(config.css.enableSourcemap, sourcemaps.write('.'))) // sourcemap write
         .pipe(gulpif(utils.getEnvVar('css-beautify'), cssbeautify())) // beautify CSS
         .pipe(gulp.dest(config.paths.dist.css)) // save css file
+        .pipe(gulp.dest(config.paths.build.css)) // save css in build dir
         .pipe(filter('style.css')) // filter only css files (remove the map file)
         .pipe(modules.livereload.silentReload()); // inject the changed css
 
@@ -679,8 +681,7 @@ var modules = {
           },
           // proxy: config.user.path || ((config.user.hostname || 'localhost') + utils.getRelativePath(process.env.INIT_CWD, 'server')),
           port: 3000,
-          open: ('open' in config.user ? config.user.open : 'external'),
-          host: config.user.hostname || 'localhost',
+          host: 'localhost',
           notify: {
             styles: [
               'display: none;',

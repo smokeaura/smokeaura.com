@@ -91,7 +91,7 @@ $breakpoint-mobile {
 .slider .slide-left .slide-content {
   float: left;
   border-right: 2px solid #707070;
-  
+
 }
 
 .slider .slide-right .slide-content {
@@ -207,7 +207,7 @@ $breakpoint-mobile {
 .slider-timeline .slide-head span { position: absolute; left: 0; right: 0; bottom: 13px; font-family: $font-family-serif; font-weight: 600; text-transform: uppercase; font-size: 28px; letter-spacing: 0.19em; }
 
 .slider-timeline .slide-meta { position: relative; margin-bottom: 30px; }
-.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #b8b8b8; background: #fff; font-family: $font-family-serif; font-weight: 600; text-transform: uppercase; font-size: 14px; letter-spacing: 0.21em; text-transform: uppercase; }
+.slider-timeline .slide-meta span { position: relative; display: inline-block; padding: 9px 24px 9px; border: 2px solid #b8b8b8; background: #fff; font-family: $font-family-serif; font-weight: 400; letter-spacing: .1em; text-transform: uppercase; font-size: 18px; text-transform: uppercase; }
 .slider-timeline .slide-meta:before { position: absolute; left: 0; right: 0; top: 0; bottom: 0; height: 3px; background: #b8b8b8; margin: auto 0; content: ''; }
 
 .slider-timeline .owl-item:first-child .slide-meta:before { left: 50%; }
