@@ -145,10 +145,16 @@
         </div>
         <!-- /.intro -->
         <div class="video-wrap">
-            <video id="full-video" src="css/images/temp/aura-video.mp4" class="hidden" controls="controls"></video>
+          <video id="full-video" class="hidden" controls="controls">
+            <source src="css/images/temp/aura-video.mp4" type="video/mp4">
+            <source src="css/images/temp/aura-video.webm" type="video/webm">
+          </video>
             <div class="bg-video-box">
                 <div class="video-overlay"> </div>
-                <video id="background-video" preload="metadata" src="css/images/temp/loop-video.mp4" loop="loop" type="video/mp4"></video>
+                <video id="background-video" preload="metadata" loop="loop">
+                  <source src="css/images/temp/loop-video.mp4" type="video/mp4">
+                  <source src="css/images/temp/loop-video.webm" type="video/webm">
+                </video>
                 <div class="play-button">
                     <strong>A HIGHER STANDARD</strong>
                     <span href="" id="ww" class="watch-video">Watch video</span>
