@@ -1,8 +1,7 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 02:46:33 GMT-0700 (PDT)
+	update on Wed Apr 20 2016 02:48:14 GMT-0700 (PDT)
 
-	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
 	     02. Base -------------------------------------
 	     03. Fonts ------------------------------------
@@ -15,62 +14,55 @@
 	         Alignright -------------------------------
 	         Disabled ---------------------------------
 	         Visible Mobile ---------------------------
-	II.  Regions --------------------------------------
-	     01. Container --------------------------------
-	     02. Content ----------------------------------
-	     03. Footer -----------------------------------
-	     04. Header -----------------------------------
-	     05. Main -------------------------------------
-	     06. Shell ------------------------------------
-	     07. Sidebar ----------------------------------
-	     08. Wrapper ----------------------------------
-	III. Modules --------------------------------------
-	     01. Button -----------------------------------
+	     05. Container --------------------------------
+	     06. Content ----------------------------------
+	     07. Footer -----------------------------------
+	     08. Header -----------------------------------
+	     09. Main -------------------------------------
+	     10. Shell ------------------------------------
+	     11. Sidebar ----------------------------------
+	     12. Wrapper ----------------------------------
+	     13. Button -----------------------------------
 	         Button Block -----------------------------
-	     02. Form Elements ----------------------------
-	     03. Form -------------------------------------
-	     04. Intro ------------------------------------
-	     05. List -------------------------------------
-	     06. List Logos -------------------------------
-	     07. Logo -------------------------------------
-	     08. Nav --------------------------------------
-	     09. Section About ----------------------------
-	     10. Section Logos ----------------------------
-	     11. Section Parallax -------------------------
-	     12. Section Timeline -------------------------
-	     13. Slider -----------------------------------
-	     14. Slider About -----------------------------
-	     15. Slider Info ------------------------------
-	     16. Slider Timeline --------------------------
-	     17. Socials ----------------------------------
-	     18. Table ------------------------------------
-	     19. Widget -----------------------------------
+	     14. Form Elements ----------------------------
+	     15. Form -------------------------------------
+	     16. Intro ------------------------------------
+	     17. List -------------------------------------
+	     18. List Logos -------------------------------
+	     19. Logo -------------------------------------
+	     20. Nav --------------------------------------
+	     21. Section About ----------------------------
+	     22. Section Logos ----------------------------
+	     23. Section Parallax -------------------------
+	     24. Section Timeline -------------------------
+	     25. Slider -----------------------------------
+	     26. Slider About -----------------------------
+	     27. Slider Info ------------------------------
+	     28. Slider Timeline --------------------------
+	     29. Socials ----------------------------------
+	     30. Table ------------------------------------
+	     31. Widget -----------------------------------
  */
 
-.close { background-image: url(../css/images/sprite.png); background-position: -162px -69px; width: 16px; height: 16px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-behance { background-image: url(../css/images/sprite.png); background-position: -204px -44px; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-facebook { background-image: url(../css/images/sprite.png); background-position: 0 -104px; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-instagram { background-image: url(../css/images/sprite.png); background-position: -104px -44px; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-linkedin { background-image: url(../css/images/sprite.png); background-position: -140px -69px; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-logo { background-image: url(../css/images/sprite.png); background-position: 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-next { background-image: url(../css/images/sprite.png); background-position: -104px -69px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-prev { background-image: url(../css/images/sprite.png); background-position: -122px -69px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-twitter-grey { background-image: url(../css/images/sprite.png); background-position: -153px -44px; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-twitter { background-image: url(../css/images/sprite.png); background-position: -128px -44px; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
-.ico-youtube { background-image: url(../css/images/sprite.png); background-position: -178px -44px; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
-.logo { background-image: url(../css/images/sprite.png); background-position: -104px 0; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
+.close { background: url(../css/images/sprite/close.png) no-repeat 0 0; width: 16px; height: 16px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-behance { background: url(../css/images/sprite/ico-behance.png) no-repeat 0 0; width: 22px; height: 14px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-facebook { background: url(../css/images/sprite/ico-facebook.png) no-repeat 0 0; width: 10px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-instagram { background: url(../css/images/sprite/ico-instagram.png) no-repeat 0 0; width: 20px; height: 21px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-linkedin { background: url(../css/images/sprite/ico-linkedin.png) no-repeat 0 0; width: 18px; height: 17px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-logo { background: url(../css/images/sprite/ico-logo.png) no-repeat 0 0; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-next { background: url(../css/images/sprite/ico-next.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-prev { background: url(../css/images/sprite/ico-prev.png) no-repeat 0 0; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-twitter-grey { background: url(../css/images/sprite/ico-twitter-grey.png) no-repeat 0 0; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-twitter { background: url(../css/images/sprite/ico-twitter.png) no-repeat 0 0; width: 21px; height: 19px; display: inline-block; vertical-align: middle; font-size: 0; }
+.ico-youtube { background: url(../css/images/sprite/ico-youtube.png) no-repeat 0 0; width: 22px; height: 15px; display: inline-block; vertical-align: middle; font-size: 0; }
+.logo { background: url(../css/images/sprite/logo.png) no-repeat 0 0; width: 130px; height: 40px; display: inline-block; vertical-align: middle; font-size: 0; }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.close { background-image: url(../css/images/sprite.@2x.png); background-position: -118px 0; background-size: 133.5px 100px; width: 15.5px; height: 15.5px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-logo { background-image: url(../css/images/sprite.@2x.png); background-position: 0 0; background-size: 133.5px 100px; width: 100px; height: 100px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-next { background-image: url(../css/images/sprite.@2x.png); background-position: -102px 0; background-size: 133.5px 100px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
-	.ico-prev { background-image: url(../css/images/sprite.@2x.png); background-position: -102px -29px; background-size: 133.5px 100px; width: 14px; height: 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.close { background: url(../css/images/sprite/close@2x.png) no-repeat 0 0; width: 15.5px; height: 15.5px; background-size: 15.5px 15.5px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-logo { background: url(../css/images/sprite/ico-logo@2x.png) no-repeat 0 0; width: 100px; height: 100px; background-size: 100px 100px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-next { background: url(../css/images/sprite/ico-next@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
+	.ico-prev { background: url(../css/images/sprite/ico-prev@2x.png) no-repeat 0 0; width: 14px; height: 27px; background-size: 14px 27px; display: inline-block; vertical-align: middle; font-size: 0; }
 }
-
-/* ------------------------------------------------------------ *\
-	I.   Generic
-\* ------------------------------------------------------------ */
-
 /* ------------------------------------------------------------ *\
 	Reset
 \* ------------------------------------------------------------ */
@@ -155,7 +147,6 @@ table { width: 100%; border-collapse: collapse; border-spacing: 0; }
 
 nav ul,
 nav ol { list-style: none outside none; }
-
 /* ------------------------------------------------------------ *\
 	Base
 \* ------------------------------------------------------------ */
@@ -215,7 +206,6 @@ blockquote:last-child { margin-bottom: 0; }
 	h3 { font-size: 17px; }
 	h4 { font-size: 16px; }
 }
-
 /* ------------------------------------------------------------ *\
 	Fonts
 \* ------------------------------------------------------------ */
@@ -252,7 +242,6 @@ blockquote:last-child { margin-bottom: 0; }
     font-weight: 400;
     font-style: normal;
 }
-
 /* ------------------------------------------------------------ *\
 	Helpers
 \* ------------------------------------------------------------ */
@@ -304,13 +293,7 @@ blockquote:last-child { margin-bottom: 0; }
 
 @media ( max-width: 768px ) {
 	.hidden-mobile { display: none !important; }
-}
-
-/* ------------------------------------------------------------ *\
-	II.  Regions
-\* ------------------------------------------------------------ */
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Container
 \* ------------------------------------------------------------ */
 
@@ -332,9 +315,7 @@ blockquote:last-child { margin-bottom: 0; }
 
 @media (max-width: 767px){
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
-}
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Footer
 \* ------------------------------------------------------------ */
 
@@ -347,7 +328,6 @@ blockquote:last-child { margin-bottom: 0; }
 .footer-nav a { font-family: "proxima-nova", sans-serif; font-weight: 600; font-size: 11px; }
 
 .footer .copyright { opacity: .48; }
-
 /* ------------------------------------------------------------ *\
 	Header
 \* ------------------------------------------------------------ */
@@ -369,35 +349,26 @@ blockquote:last-child { margin-bottom: 0; }
 	.header .desktop-email{display: none;}
 	.header .mobile-email{display: inline-block;position: absolute;bottom: 10px;left: 10px;right: 10px;}
 }
-
 /* ------------------------------------------------------------ *\
 	Main
 \* ------------------------------------------------------------ */
 
 .main {}
-
 /* ------------------------------------------------------------ *\
 	Shell
 \* ------------------------------------------------------------ */
 
 .shell { max-width: 80%; margin: auto; padding: 0 12px;overflow: hidden; }
-
 /* ------------------------------------------------------------ *\
 	Sidebar
 \* ------------------------------------------------------------ */
 
 .sidebar {}
-
 /* ------------------------------------------------------------ *\
 	Wrapper
 \* ------------------------------------------------------------ */
 
 .wrapper {}
-
-/* ------------------------------------------------------------ *\
-	III. Modules
-\* ------------------------------------------------------------ */
-
 /* ------------------------------------------------------------ *\
 	Button
 \* ------------------------------------------------------------ */
@@ -424,7 +395,6 @@ blockquote:last-child { margin-bottom: 0; }
 @media (max-width: 767px) {
 	
 }
-
 /* ------------------------------------------------------------ *\
 	Form Elements
 \* ------------------------------------------------------------ */
@@ -448,7 +418,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .select {}
 .radio {}
 .checkbox {}
-
 /* ------------------------------------------------------------ *\
 	Form
 \* ------------------------------------------------------------ */
@@ -535,7 +504,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
  @media (max-width: 1024px){
 	.form .preord{padding: 40px 20px;}
  }
-
 /* ------------------------------------------------------------ *\
 	Intro
 \* ------------------------------------------------------------ */
@@ -614,14 +582,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 @media (max-width: 767px) {
 	.list-logos { text-align: center; }
 
-}
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Logo
 \* ------------------------------------------------------------ */
 
 .logo {}
-
 /* ------------------------------------------------------------ *\
 	Nav
 \* ------------------------------------------------------------ */
@@ -662,7 +627,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.nav li ~ li { margin-left: 0; margin-top: 10px; }
 	.nav a:hover{text-decoration: underline;padding: 0;border-bottom: none;}
 }
-
 /* ------------------------------------------------------------ *\
 	Section About
 \* ------------------------------------------------------------ */
@@ -709,9 +673,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 
 @media (max-width: 767px) {
 	.section-timeline .btn-primary {font-size: 18px;padding: 6px 20px 4px; }
-}
-
-/* ------------------------------------------------------------ *\
+}/* ------------------------------------------------------------ *\
 	Slider
 \* ------------------------------------------------------------ */
 
@@ -922,7 +884,6 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 	.slider-timeline .owl-prev,
 	.slider-timeline .owl-next { top: 290px; margin-top: 0; }
 }
-
 /* ------------------------------------------------------------ *\
 	Socials
 \* ------------------------------------------------------------ */
@@ -932,13 +893,11 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 .socials li { display: inline-block; vertical-align: middle; }
 .socials li ~ li { margin-left: 25px; }
 .socials a { display: block; }
-
 /* ------------------------------------------------------------ *\
 	Table
 \* ------------------------------------------------------------ */
 
 .table {}
-
 /* ------------------------------------------------------------ *\
 	Widget
 \* ------------------------------------------------------------ */
