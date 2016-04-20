@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 12:47:41 GMT+0300 (Финляндия (лето))
+	update on Wed Apr 20 2016 15:09:29 GMT+0300 (Финляндия (лето))
 
 	     01. Reset ------------------------------------
 	     02. Base -------------------------------------
@@ -781,12 +781,19 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 
 }
 
-.slider .shell .slide-bg {
+.slider .shell .slide-bg-white {
   background-color: #fff;
   border:none;
-  padding: 35px 0 0;
+  padding: 55px 0 30px;
 }
-
+.slider .shell .slide-bg-grey {
+  background-color: #F3F0F0;
+  border:none;
+  padding: 55px 0 0;
+}
+.slider .shell .slide-bg-grey p{
+  margin-bottom:1.8em;
+}
 @media (max-width: 767px) {
   .slider-about .slide-right .slide-content {float: none;}
   .slider .shell .slide-bg{padding: 0;}
@@ -856,7 +863,10 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
   .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; background-size: cover;}
   .slider-info .slide-content { text-align: center; max-width:100%; margin: 0 auto; }
   .slider-info .owl-dots { position: absolute; bottom: 5px; }
-  .slider-info .owl-item .slide{max-height:715px ; padding: 310px 0 140px;}
+  .slider-info .owl-item .slide{max-height:715px ; padding: 270px 0 55px;}
+  .slider-info .slide img {display: none;}
+  .slider .shell .slide-bg-grey{background-color: #fff;}
+  .slider .slide-right .slide-content{border: none; padding: 55px 0 0; float: none;}
 
 }
 
@@ -882,6 +892,8 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 @media (max-width: 767px) {
 	.slider-timeline .owl-prev,
 	.slider-timeline .owl-next { top: 290px; margin-top: 0; }
+  .slider-info .owl-prev,
+  .slider-info .owl-next { top: 65%; }
 }
 /* ------------------------------------------------------------ *\
 	Socials
