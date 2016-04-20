@@ -23,7 +23,7 @@
 .form .email{
 	position: relative;
 	margin: 0 auto;
-	border:4px solid #a4886f;
+	outline:4px solid #a4886f;
 	position: fixed;
 	top: 150px;
 	width: 500px;
@@ -39,7 +39,6 @@
 	width: 20px;
 	height: 20px;
 	background-image: url(../css/images/sprite/close.png);
-	-webkit-background-size: cover;
 	background-size: cover;
 	position: absolute;
 	top: 25px;

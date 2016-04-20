@@ -45,7 +45,7 @@ $breakpoint-mobile {
   max-height: 990px;
 }
 .slider-about .owl-item  .slide-first-1{
-  padding:250px 0 200px 0;
+  padding:200px 0;
 
 }
 .slider-about .owl-item  .slide-first-1 .slide-image{
@@ -81,6 +81,7 @@ $breakpoint-mobile {
   line-height: .9em;
   padding-bottom: .2rem;
   color: #707070;
+  font-family: $font-family-logo;
 }
 
 .slider-about p {
@@ -134,8 +135,11 @@ $breakpoint-mobile {
 
 .slider-info .owl-item .slide {
   position: relative;
-  padding: 485px 0 ;
+  padding: 381px 0 ;
   max-height: 1500px;
+}
+.slider-info .owl-item  .slide-box-bg{
+  padding:263px 0 ;
 }
 .slider-info .slide-image {
   position: absolute;
@@ -146,6 +150,7 @@ $breakpoint-mobile {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  height: 900px;
 }
 .slider-info .slide-content { position: relative; max-width: 360px; padding: 0 25px; }
 
@@ -163,20 +168,21 @@ $breakpoint-mobile {
   line-height: .9em;
   padding-bottom: .2rem;
    color: #707070;
+   font-family: $font-family-logo;
 }
 
 .slider-info p {
   font-size: 1rem;
-  color: #707070;
+  color: #404040;
 }
 
 
 
 $breakpoint-mobile {
   .slider-info .slide { padding-top: 285px; padding-bottom: 0; }
-  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; }
+  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; background-size: cover;}
   .slider-info .slide-content { text-align: center; max-width:100%; margin: 0 auto; }
-  .slider-info .owl-dots { position: absolute; bottom: 35px; }
+  .slider-info .owl-dots { position: absolute; bottom: 5px; }
   .slider-info .owl-item .slide{max-height:715px ; padding: 310px 0 140px;}
 
 }
