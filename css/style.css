@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Apr 20 2016 07:11:29 GMT-0700 (PDT)
+	update on Wed Apr 20 2016 07:14:04 GMT-0700 (PDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -348,6 +348,16 @@ blockquote:last-child { margin-bottom: 0; }
 
 .footer .copyright { opacity: .48; }
 
+@media (max-width: 767px){
+	.footer-nav li ~ li{
+		padding-left:8px;
+		margin-left: 8px;
+	}
+	.footer .socials li ~ li{
+		margin-left: 20px;
+	}
+}
+
 /* ------------------------------------------------------------ *\
 	Header
 \* ------------------------------------------------------------ */
@@ -417,7 +427,7 @@ blockquote:last-child { margin-bottom: 0; }
 .btn-block { display: block; padding-left: 0; padding-right: 0; }
 
 @media (max-width: 1023px) {
-	.btn .email-form { }
+	
 }
 
 
@@ -595,6 +605,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 @media (max-width: 767px) {
 	.intro-content { padding: 20px 0 30px; }
   .intro {min-height: 480px;}
+  .intro .btn .email-form {width: 91%; }
 }
 
 /* ------------------------------------------------------------ *\
@@ -873,7 +884,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 }
 .slider-info .slide-content { position: relative; max-width: 360px; padding: 0 25px; }
 
-.slider-info .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0; }
+.slider-info .owl-dots { position: absolute; bottom: 50px; left: 0; width: 100%; padding-top: 0; }
 
 .slider-info .slide-logo {
   width: 160px !important;
@@ -899,7 +910,7 @@ input:-webkit-autofill { -webkit-text-fill-color: inherit !important; -webkit-bo
 
 @media (max-width: 767px) {
   .slider-info .slide { padding-top: 285px; padding-bottom: 0; }
-  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-position: right 0px top 50%; background-size: cover;}
+  .slider-info .slide-image { top: 0; bottom: auto; height: 270px; background-size: cover;}
   .slider-info .slide-content { text-align: center; max-width:100%; margin: 0 auto; }
   .slider-info .owl-dots { position: absolute; bottom: 5px; }
   .slider-info .owl-item .slide{max-height:715px ; padding: 270px 0 55px;}

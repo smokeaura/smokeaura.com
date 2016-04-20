@@ -11,3 +11,13 @@
 .footer-nav a { font-family: $font-family-serif; font-weight: 400; font-size: 14px; letter-spacing: .1em }
 
 .footer .copyright { opacity: .48; }
+
+$breakpoint-mobile{
+	.footer-nav li ~ li{
+		padding-left:8px;
+		margin-left: 8px;
+	}
+	.footer .socials li ~ li{
+		margin-left: 20px;
+	}
+}
