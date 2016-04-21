@@ -12,12 +12,10 @@
     <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css" />
     <!-- App Styles -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- Vendor JS -->
-    <script src="vendor/jquery-1.11.3.min.js"></script>
-    <script src="vendor/parallax.min.js"></script>
-    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-    <!-- App JS -->
-    <script src="js/functions.js"></script>
+    <!-- Crowdstart analytics tag -->
+    <script>
+    !function(t,e,a){var r,n,c,i,o,s,l,u;if(null==t.analytics){for(r=[],r.methods=["ab","alias","group","identify","off","on","once","page","pageview","ready","track","trackClick","trackForm","trackLink","trackSubmit"],l=r.methods,c=function(t){r[t]=function(){var e;return e=Array.prototype.slice.call(arguments),e.unshift(t),r.push(e),r}},i=0,o=l.length;o>i;i++)s=l[i],c(s);return u=e.createElement("script"),u.async=!0,u.type="text/javascript",u.src=a,n=e.getElementsByTagName("script")[0],n.parentNode.insertBefore(u,n),t.analytics=r}}(window,document,"//cdn.crowdstart.com/a/aura.js");
+    </script>
 </head>
 
 <body>
@@ -82,8 +80,9 @@
             <a href="#" class="logo"></a>
             <div class="btn desktop-email">
                 <form action="" class="email-form">
+                    <script src="/js/form.js"></script>
                     <fieldset>
-                        <input class="email-text" type="text" placeholder="your email here">
+                        <input name="email" class="email-text" type="text" placeholder="your email here">
                         <input class="email-btn" type="submit" value="JOIN">
                     </fieldset>
                 </form>
@@ -102,8 +101,9 @@
                 </ul>
                 <div class="btn mobile-email">
                     <form action="" class="email-form">
+                        <script src="/js/form.js"></script>
                         <fieldset>
-                            <input class="email-text" type="text" placeholder="your email here">
+                            <input name="email" class="email-text" type="text" placeholder="your email here">
                             <input class="email-btn" type="submit" value="JOIN">
                         </fieldset>
                     </form>
@@ -132,8 +132,9 @@
                     </span>
                     <div class="btn">
                         <form action="" class="email-form">
+                            <script src="/js/form.js"></script>
                             <fieldset>
-                                <input class="email-text" type="text" placeholder="your email here">
+                                <input name="email" class="email-text" type="text" placeholder="your email here">
                                 <input class="email-btn" type="submit" value="JOIN">
                             </fieldset>
                         </form>
@@ -144,10 +145,16 @@
         </div>
         <!-- /.intro -->
         <div class="video-wrap">
-            <video id="full-video" src="css/images/temp/aura-video.mp4" class="hidden" controls="controls"></video>
+          <video id="full-video" class="hidden" controls="controls">
+            <source src="css/images/temp/aura-video.mp4" type="video/mp4">
+            <source src="css/images/temp/aura-video.webm" type="video/webm">
+          </video>
             <div class="bg-video-box">
                 <div class="video-overlay"> </div>
-                <video id="background-video" preload="metadata" src="css/images/temp/loop-video.mp4" loop="loop" type="video/mp4"></video>
+                <video id="background-video" preload="metadata" loop="loop">
+                  <source src="css/images/temp/loop-video.mp4" type="video/mp4">
+                  <source src="css/images/temp/loop-video.webm" type="video/webm">
+                </video>
                 <div class="play-button">
                     <strong>A HIGHER STANDARD</strong>
                     <span href="" id="ww" class="watch-video">Watch video</span>
@@ -412,7 +419,7 @@
                             <!-- /.slide-meta -->
                             <div class="slide-content">
                                 <h1>Manufacture</h1>
-                                <p>The process of selecting a manufacturing partner took place in conjuction with prototyping. Material sourcing and refinement of d esign details for tooling and manufacturing followed. The team has worked through four rounds of manufactured test models to get the little details that count right at the end.</p>
+                                <p>The process of selecting a manufacturing partner took place in conjuction with prototyping. Material sourcing and refinement of design details for tooling and manufacturing followed. The team has worked through four rounds of manufactured test models to get the little details that count right at the end.</p>
                             </div>
                             <!-- /.slide-content -->
                         </div>
@@ -443,7 +450,15 @@
                             <!-- /.slide-meta -->
                             <div class="slide-content">
                                 <h1>Pre-Orders</h1>
-                                <p>Help us take the last steps to make Aura a reality. Pre-orders are coming soon, and are being used to pay for the final costs to produce 3,000 units. We would not be ablle to pay for the tooling needed to make this a reality wihtout your help, and we cannot thank you enoght for your support. As soon as Aura meets its funding goal we will launch full production.</p>
+                                <p>Help us take the last steps to make Aura a
+                                  reality. Pre-orders are coming soon, and are
+                                  being used to pay for the final costs to
+                                  produce 3,000 units. We would not be able to
+                                  pay for the tooling needed to make this a
+                                  reality without your help, and we cannot
+                                  thank you enough for your support. As soon as
+                                  Aura meets its funding goal we will launch
+                                  full production.</p>
                             </div>
                             <!-- /.slide-content -->
                         </div>
@@ -459,7 +474,7 @@
                             <!-- /.slide-meta -->
                             <div class="slide-content">
                                 <h1>Delivery</h1>
-                                <p>Within 2 months of meeting our funding goal, we will begin delivering Aura to our earliest pre-orderers. We anticipate this time will come as easrly as August 2016, but maintain that complications can arise throught the manufacturing process, and will update frequently on our status through this time.</p>
+                                <p>Within 2 months of meeting our funding goal, we will begin delivering Aura to our earliest pre-orderers. We anticipate this time will come as early as August 2016, but maintain that complications can arise throughout the manufacturing process, and will update frequently on our status through this time.</p>
                             </div>
                             <!-- /.slide-content -->
                         </div>
@@ -491,7 +506,12 @@
                             <!-- /.slide-meta -->
                             <div class="slide-content">
                                 <h1>Aura Accessories</h1>
-                                <p>Our goal is to de-stigmatize smoking by creating beautiful and easy to use tools. This begins with Aura Water Pipe, and will be continued with a line of products to accompany the full needs of the modern smoker.</p>
+                                <p>Our goal is to de-stigmatize smoking by
+                                  creating beautiful and easy to use tools.
+                                  This begins with Aura Water Pipe, and will be
+                                  continued with a line of products to
+                                  accompany the full needs of the modern
+                                  smoker.</p>
                             </div>
                             <!-- /.slide-content -->
                         </div>
@@ -502,8 +522,9 @@
                 <!-- /.slider-clip -->
                 <div class="btn desktop-email">
                   <form action="" class="email-form">
+                      <script src="/js/form.js"></script>
                       <fieldset>
-                          <input class="email-text" type="text" placeholder="your email here">
+                          <input name="email" class="email-text" type="text" placeholder="your email here">
                           <input class="email-btn" type="submit" value="JOIN AURA">
                       </fieldset>
                   </form>
@@ -514,22 +535,22 @@
         <!-- /.section-timeline -->
         <footer class="footer">
             <div class="shell">
-                <nav class="footer-nav">
-                    <ul>
-                        <li>
-                            <a href="#">ABOUT US</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ</a>
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                        <li>
-                            <a href="#">CAREERS</a>
-                        </li>
-                    </ul>
-                </nav>
+                <!-- <nav class="footer-nav"> -->
+                <!--     <ul> -->
+                <!--         <li> -->
+                <!--             <a href="#">ABOUT US</a> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#">FAQ</a> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#">CONTACT</a> -->
+                <!--         </li> -->
+                <!--         <li> -->
+                <!--             <a href="#">CAREERS</a> -->
+                <!--         </li> -->
+                <!--     </ul> -->
+                <!-- </nav> -->
                 <!-- /.footer-nav -->
                 <div class="socials">
                     <ul>
@@ -586,6 +607,12 @@
         });
     } catch (e) {}
     </script>
+    <!-- Vendor JS -->
+    <script src="vendor/jquery-1.11.3.min.js"></script>
+    <script src="vendor/parallax.min.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    <!-- App JS -->
+    <script src="js/functions.js"></script>
 </body>
 
 </html>
