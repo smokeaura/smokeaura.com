@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------ *\
+/gh)* ------------------------------------------------------------ *\
 	Footer
 \* ------------------------------------------------------------ */
 
@@ -10,7 +10,11 @@
 .footer-nav li ~ li { padding-left: 15px; border-left: 1px solid #666; margin-left: 15px; }
 .footer-nav a { font-family: $font-family-serif; font-weight: 400; font-size: 14px; letter-spacing: .1em }
 
-.footer .copyright { opacity: .48; }
+.footer .copyright {
+  color: black;
+  letter-spacing: 0.1em;
+  font-family: $font-family-serif;
+}
 
 $breakpoint-mobile{
 	.footer-nav li ~ li{
