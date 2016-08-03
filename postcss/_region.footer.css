@@ -16,6 +16,10 @@
   font-family: $font-family-serif;
 }
 
+.footer .copyright, .footer .socials {
+  text-align:center;
+}
+
 $breakpoint-mobile{
 	.footer-nav li ~ li{
 		padding-left:8px;
