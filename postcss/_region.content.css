@@ -12,40 +12,53 @@
 .play-button .watch-video{cursor: pointer; display: inline-block; margin: 30px auto; border:1px solid #ffffff; padding: 10px 20px;text-transform: uppercase;font-size: 100;letter-spacing: 2px;}
 .anchor{display: none; height: 0;}
 
+.video-overlay h1 {
+  position: relative;
+  top: 40%;
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+}
+
 .play-button-circle {
   cursor: pointer;
   z-index: 9999;
   position: relative;
   opacity: 0.6;
-  border-width: 2.083px;
+  border-width: 1px;
   border-color: rgb(255, 255, 255);
   border-style: solid;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
+  width: 42px;
+  height: 42px;
   left: 50%;
   transform: translateY(-50%);
   top: 50%;
 }
 
+.play-button-circle:hover {
+  opacity: 1;
+}
+
 .play-button-triangle-container {
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   position: relative;
-  border-left: 2px solid #fff;
+  border-left: 1px solid #fff;
   overflow: hidden;
-  top: 17px;
-  left: 28px;
+  top: 10px;
+  left: 17px;
+  transform: scale(1.2,0.9);
 }
 
 .play-button-triangle-inner {
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   border-style: solid;
   transform: rotate(45deg);
-  border-width: 2px 2px 0 0;
+  border-width: 1px 1px 0 0;
   position:absolute;
-  left: -22px;
+  left: -14px;
   border-color: #fff;
 }
 
@@ -59,13 +72,15 @@ span.aura-updates {
 
 .make-smoking-beautiful p {
   color: black;
+  font-size: 0.9rem;
 }
 
 .make-smoking-beautiful h1 {
   color: black;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   letter-spacing: 0.05em;
   margin-top: -10px;
+  margin-bottom: 0px;
 }
 
 .make-smoking-beautiful h2 {
@@ -80,19 +95,22 @@ span.aura-updates {
 .make-smoking-beautiful .image {
   width: 49%;
   float: left;
-  width: 50%;
-}
-
-.make-smoking-beautiful .image img {
-  max-height: 400px;
-  display:block !important;
-  margin: 0 auto;
 }
 
 .make-smoking-beautiful .content {
   width: 49%;
   float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
 }
+
+.make-smoking-beautiful .image img {
+  max-height: 500px;
+  display:block !important;
+  margin: 0 auto;
+}
+
 
 section.section-about {
   background-color: #F6F6F7;
@@ -102,4 +120,14 @@ section.section-about {
 $breakpoint-mobile{
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
+
+  .make-smoking-beautiful .image {
+    width: 100%;
+    float: left;
+  }
+
+  .make-smoking-beautiful .content {
+    width: 100%;
+    float: left;
+  }
 }
