@@ -13,6 +13,7 @@
   border: 1.25px solid rgb(112,112,112);
   box-shadow: 0px 0px 1.5px 0px rgba(0,0,0,0.25);
 }
+
 .btn .email-form input{
   background-color: #fff;
   font-size: 1rem;
@@ -20,6 +21,7 @@
   color: rgb(112, 112, 112);
   letter-spacing: 0.1rem;
 }
+
 .btn .email-form .email-btn {
   font-size: 1.2rem;
   font-family: $font-family-serif;
@@ -31,6 +33,11 @@
   text-align: center;
   letter-spacing: 0.2rem;
   border: none;
+  width: 40%;
+}
+
+.btn .email-form .email-btn:hover {
+  background-color: #F6F6F7;
 }
 
 .btn .email-form .email-text{

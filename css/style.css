@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Aug 03 2016 06:21:41 GMT-0500 (CDT)
+	update on Wed Aug 03 2016 12:18:02 GMT-0500 (CDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -575,6 +575,7 @@ section.section-about {
   border: 1.25px solid rgb(112,112,112);
   box-shadow: 0px 0px 1.5px 0px rgba(0,0,0,0.25);
 }
+
 .btn .email-form input{
   background-color: #fff;
   font-size: 1rem;
@@ -582,6 +583,7 @@ section.section-about {
   color: rgb(112, 112, 112);
   letter-spacing: 0.1rem;
 }
+
 .btn .email-form .email-btn {
   font-size: 1.2rem;
   font-family: 'Shonar Bangla', 'Times', serif;
@@ -593,6 +595,11 @@ section.section-about {
   text-align: center;
   letter-spacing: 0.2rem;
   border: none;
+  width: 40%;
+}
+
+.btn .email-form .email-btn:hover {
+  background-color: #F6F6F7;
 }
 
 .btn .email-form .email-text{
