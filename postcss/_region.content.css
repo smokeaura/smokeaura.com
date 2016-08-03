@@ -18,6 +18,7 @@
   font-size: 3rem;
   font-weight: 300;
   color: white;
+  height: auto;
 }
 
 .play-button-circle {
@@ -68,6 +69,7 @@ span.aura-updates {
   font-size: 1.1em;
   letter-spacing: 0.05em;
   color: black;
+  cursor: pointer;
 }
 
 .make-smoking-beautiful p {
@@ -117,9 +119,25 @@ section.section-about {
   box-shadow: inset 100px 0 100px #dbdbdb;
 }
 
+@media (max-width: 600px){
+  .video-overlay h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 380px){
+  .video-overlay h1 {
+    font-size: 1.6rem;
+  }
+}
+
 $breakpoint-mobile{
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
+
+  .make-smoking-beautiful h2 {
+    padding-top: 30px;
+  }
 
   .make-smoking-beautiful .image {
     width: 100%;
@@ -129,5 +147,6 @@ $breakpoint-mobile{
   .make-smoking-beautiful .content {
     width: 100%;
     float: left;
+    transform: none;
   }
 }
