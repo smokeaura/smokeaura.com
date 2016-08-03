@@ -42,8 +42,9 @@ $breakpoint-mobile {
 .slider-about .owl-item .slide {
   position: relative;
   padding: 495px 0;
-  max-height: 990px;
+  min-height: 100vh;
 }
+
 .slider-about .owl-item  .slide-first-1{
   padding:200px 0;
 
@@ -65,23 +66,13 @@ $breakpoint-mobile {
   background-size: cover;
 }
 
-.slider-about .slide-content { position: relative; max-width: 360px;padding: 10px 30px; color:#707070; border-left: 1px solid #707070;}
+.slider-about .slide-content { position: relative; max-width: 360px;padding: 10px 30px; color:#707070;}
 
 .slider-about .owl-dots { position: absolute; bottom: 30px; left: 0; width: 100%; padding-top: 0;z-index: 3; }
 
 .slider-about .slide-logo {
   width: 160px !important;
   padding-bottom: 4rem;
-}
-
-.slider-about h2 {
-  font-size: 1.7rem;
-  font-weight: 300;
-  margin-bottom: .2rem;
-  line-height: .9em;
-  padding-bottom: .2rem;
-  color: #707070;
-  font-family: $font-family-logo;
 }
 
 .slider-about p {
