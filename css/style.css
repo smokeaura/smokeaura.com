@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Aug 03 2016 05:47:32 GMT-0500 (CDT)
+	update on Wed Aug 03 2016 06:21:41 GMT-0500 (CDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -335,6 +335,7 @@ blockquote:last-child { margin-bottom: 0; }
   font-size: 3rem;
   font-weight: 300;
   color: white;
+  height: auto;
 }
 
 .play-button-circle {
@@ -391,6 +392,7 @@ span.aura-updates {
   font-size: 1.1em;
   letter-spacing: 0.05em;
   color: black;
+  cursor: pointer;
 }
 
 .make-smoking-beautiful p {
@@ -418,13 +420,6 @@ span.aura-updates {
 .make-smoking-beautiful .image {
   width: 49%;
   float: left;
-  width: 50%;
-}
-
-.make-smoking-beautiful .image img {
-  max-height: 500px;
-  display:block !important;
-  margin: 0 auto;
 }
 
 .make-smoking-beautiful .content {
@@ -437,14 +432,50 @@ span.aura-updates {
           transform: translateY(50%);
 }
 
+.make-smoking-beautiful .image img {
+  max-height: 500px;
+  display:block !important;
+  margin: 0 auto;
+}
+
+
 section.section-about {
   background-color: #F6F6F7;
   box-shadow: inset 100px 0 100px #dbdbdb;
 }
 
+@media (max-width: 600px){
+  .video-overlay h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 380px){
+  .video-overlay h1 {
+    font-size: 1.6rem;
+  }
+}
+
 @media (max-width: 767px){
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
+
+  .make-smoking-beautiful h2 {
+    padding-top: 30px;
+  }
+
+  .make-smoking-beautiful .image {
+    width: 100%;
+    float: left;
+  }
+
+  .make-smoking-beautiful .content {
+    width: 100%;
+    float: left;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
 }
 
 /gh)* ------------------------------------------------------------ *\
