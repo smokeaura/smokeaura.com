@@ -3,7 +3,7 @@
 \* ------------------------------------------------------------ */
 
 .content {}
-.video-wrap{position: relative; width: 100%; height:100%;margin: 0 auto;background: #000000; text-align: center;line-height: 0;}
+.video-wrap{position: relative; width: 100%; height:100%;margin-top: 56px;background: #000000; text-align: center;line-height: 0;}
 .video-wrap video{width: 100%; height: 100%;}
 .video-overlay{background: rgba(0,0,0,.5); position: absolute; width: 100%;height: 100%;}
 .full-video{position: absolute;}
@@ -12,6 +12,44 @@
 .play-button .watch-video{cursor: pointer; display: inline-block; margin: 30px auto; border:1px solid #ffffff; padding: 10px 20px;text-transform: uppercase;font-size: 100;letter-spacing: 2px;}
 .anchor{display: none; height: 0;}
 
+.play-button-circle {
+  cursor: pointer;
+  z-index: 9999;
+  position: relative;
+  opacity: 0.6;
+  border-width: 2.083px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  left: 50%;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.play-button-triangle-container {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border-left: 2px solid #fff;
+  overflow: hidden;
+  top: 17px;
+  left: 28px;
+}
+
+.play-button-triangle-inner {
+  width: 32px;
+  height: 32px;
+  border-style: solid;
+  transform: rotate(45deg);
+  border-width: 2px 2px 0 0;
+  position:absolute;
+  left: -22px;
+  border-color: #fff;
+}
+
 $breakpoint-mobile{
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
+    .video-wrap{margin-top: 39px;}
 }

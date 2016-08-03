@@ -147,15 +147,17 @@
             <source src="css/images/temp/aura-video.webm" type="video/webm">
           </video>
             <div class="bg-video-box">
-                <div class="video-overlay"> </div>
-                <video id="background-video" preload="metadata" loop="loop">
-                  <source src="css/images/temp/loop-video.mp4" type="video/mp4">
-                  <source src="css/images/temp/loop-video.webm" type="video/webm">
-                </video>
-                <div class="play-button">
-                    <strong>A HIGHER STANDARD</strong>
-                    <span href="" id="ww" class="watch-video">Watch video</span>
+              <div class="video-overlay">
+                <div id="ww" class="watch-video play-button-circle">
+                  <div class="play-button-triangle-container">
+                    <div class="play-button-triangle-inner"></div>
+                  </div>
                 </div>
+              </div>
+              <video id="background-video" preload="metadata" loop="loop">
+                <source src="css/images/temp/loop-video.mp4" type="video/mp4">
+                <source src="css/images/temp/loop-video.webm" type="video/webm">
+              </video>
             </div>
         </div>
         <!-- /.video-wrap -->
@@ -595,15 +597,6 @@
     <!-- /.wrapper -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- for videoloop -->
-    <!-- Proxima nova ff-->
-    <script src="https://use.typekit.net/mtl8vqo.js"></script>
-    <script>
-    try {
-        Typekit.load({
-            async: true
-        });
-    } catch (e) {}
-    </script>
     <!-- Vendor JS -->
     <script src="vendor/jquery-1.11.3.min.js"></script>
     <script src="vendor/parallax.min.js"></script>
