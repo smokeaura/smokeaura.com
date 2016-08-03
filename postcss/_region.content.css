@@ -49,6 +49,56 @@
   border-color: #fff;
 }
 
+span.aura-updates {
+  text-decoration: underline;
+  font-family: $font-family-serif;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  color: black;
+}
+
+.make-smoking-beautiful p {
+  color: black;
+}
+
+.make-smoking-beautiful h1 {
+  color: black;
+  font-size: 2.6rem;
+  letter-spacing: 0.05em;
+  margin-top: -10px;
+}
+
+.make-smoking-beautiful h2 {
+  color: black;
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.make-smoking-beautiful .image {
+  width: 49%;
+  float: left;
+  width: 50%;
+}
+
+.make-smoking-beautiful .image img {
+  max-height: 400px;
+  display:block !important;
+  margin: 0 auto;
+}
+
+.make-smoking-beautiful .content {
+  width: 49%;
+  float: right;
+}
+
+section.section-about {
+  background-color: #F6F6F7;
+  box-shadow: inset 100px 0 100px #dbdbdb;
+}
+
 $breakpoint-mobile{
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
