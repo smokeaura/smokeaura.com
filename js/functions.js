@@ -99,6 +99,16 @@
 })(jQuery, window, document);
 
 $(document).ready(function() {
+    // Respond to AURA UPDATES span click
+    $('.aura-updates').on('click', function(event) {
+        // Focus input on form in header
+        $('input.email-text')[0].focus();
+        // Scroll back to top (to draw eye's attention to form
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+        // Show menu on mobile (that is where form is)
+        $('nav').addClass('visible');
+    })
+
     $(".scroll").on("click", "a", function(event) {
 
         event.preventDefault();
