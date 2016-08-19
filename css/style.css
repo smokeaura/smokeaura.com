@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Thu Aug 18 2016 19:20:05 GMT-0500 (CDT)
+	update on Thu Aug 18 2016 19:33:23 GMT-0500 (CDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -332,7 +332,7 @@ blockquote:last-child { margin-bottom: 0; }
 .video-overlay h1 {
   position: relative;
   top: 40%;
-  font-size: 3rem;
+  font-size: 3.5em;
   font-weight: 300;
   color: white;
   height: auto;
@@ -349,10 +349,10 @@ blockquote:last-child { margin-bottom: 0; }
   border-radius: 50%;
   width: 42px;
   height: 42px;
-  left: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  left: 48%;
+  -webkit-transform: translateY(-50%) scale(2.0);
+      -ms-transform: translateY(-50%) scale(2.0);
+          transform: translateY(-50%) scale(2.0);
   top: 50%;
 }
 
@@ -454,7 +454,7 @@ section.section-about {
 
 @media (max-width: 380px){
   .video-overlay h1 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
   }
 }
 
@@ -501,6 +501,18 @@ section.section-about {
 
   .make-smoking-beautiful h2 {
     font-size: 2.2rem;
+  }
+
+  .play-button-circle {
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 45%;
+  }
+
+  .video-overlay h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 
