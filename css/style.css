@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Wed Aug 03 2016 12:18:02 GMT-0500 (CDT)
+	update on Thu Aug 18 2016 19:01:50 GMT-0500 (CDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -397,21 +397,22 @@ span.aura-updates {
 
 .make-smoking-beautiful p {
   color: black;
-  font-size: 0.9rem;
+  font-size: 1.4em;
+  max-width: 330px;
 }
 
 .make-smoking-beautiful h1 {
   color: black;
-  font-size: 2.8rem;
+  font-size: 3.9rem;
   letter-spacing: 0.05em;
   margin-top: -10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .make-smoking-beautiful h2 {
   color: black;
   font-weight: 600;
-  font-size: 1.7rem;
+  font-size: 2.8rem;
   letter-spacing: 0.05em;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -426,10 +427,6 @@ span.aura-updates {
   width: 49%;
   float: right;
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(50%);
-      -ms-transform: translateY(50%);
-          transform: translateY(50%);
 }
 
 .make-smoking-beautiful .image img {
@@ -460,7 +457,13 @@ section.section-about {
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
 
+
+  .make-smoking-beautiful h1 {
+    text-align: center;
+  }
+
   .make-smoking-beautiful h2 {
+    text-align: center;
     padding-top: 30px;
   }
 
@@ -475,6 +478,17 @@ section.section-about {
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
+    margin-top: 0px;
+  }
+
+  .make-smoking-beautiful .wrapper {
+    width: 100%;
+  }
+
+  .make-smoking-beautiful p {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 
