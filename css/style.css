@@ -1,6 +1,6 @@
 /* 
 	Table of Contents
-	update on Thu Aug 18 2016 19:01:50 GMT-0500 (CDT)
+	update on Thu Aug 18 2016 19:20:05 GMT-0500 (CDT)
 
 	I.   Generic --------------------------------------
 	     01. Reset ------------------------------------
@@ -423,16 +423,21 @@ span.aura-updates {
   float: left;
 }
 
+.make-smoking-beautiful .image img {
+  min-height: 500px;
+  display:block !important;
+  margin: 0 auto;
+  height: 80vh;
+}
+
 .make-smoking-beautiful .content {
   width: 49%;
   float: right;
   position: relative;
-}
-
-.make-smoking-beautiful .image img {
-  max-height: 500px;
-  display:block !important;
-  margin: 0 auto;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin-top: 40vh;
 }
 
 
@@ -456,7 +461,6 @@ section.section-about {
 @media (max-width: 767px){
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
-
 
   .make-smoking-beautiful h1 {
     text-align: center;
@@ -489,6 +493,14 @@ section.section-about {
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+
+  .make-smoking-beautiful h1 {
+    font-size: 3.3rem;
+  }
+
+  .make-smoking-beautiful h2 {
+    font-size: 2.2rem;
   }
 }
 
