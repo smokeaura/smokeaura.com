@@ -100,16 +100,19 @@ span.aura-updates {
   float: left;
 }
 
+.make-smoking-beautiful .image img {
+  min-height: 500px;
+  display:block !important;
+  margin: 0 auto;
+  height: 80vh;
+}
+
 .make-smoking-beautiful .content {
   width: 49%;
   float: right;
   position: relative;
-}
-
-.make-smoking-beautiful .image img {
-  max-height: 500px;
-  display:block !important;
-  margin: 0 auto;
+  transform: translateY(-50%);
+  margin-top: 40vh;
 }
 
 
@@ -133,7 +136,6 @@ section.section-about {
 $breakpoint-mobile{
 	.play-button strong{font-size: 2rem;line-height: 1.8rem;}
     .video-wrap{margin-top: 39px;}
-
 
   .make-smoking-beautiful h1 {
     text-align: center;
@@ -164,5 +166,13 @@ $breakpoint-mobile{
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+
+  .make-smoking-beautiful h1 {
+    font-size: 3.3rem;
+  }
+
+  .make-smoking-beautiful h2 {
+    font-size: 2.2rem;
   }
 }
